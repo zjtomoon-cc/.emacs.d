@@ -1,0 +1,5 @@
+(require 'dirvish)
+(lazy-load-set-keys '(("h" . dired-up-directory)
+		      ("l" . dired-find-alternate-file))
+		    dired-mode-map)
+(provide 'init-dirvish)

@@ -1,0 +1,10 @@
+(require 's)
+(require 'f)
+(require 'elisp-refs)
+(require 'helpful)
+
+(define-key global-map [remap describe-function] 'helpful-function)
+(define-key global-map [remap describe-key] 'helpful-key)
+(define-key global-map [remap describe-variable] 'helpful-variable)
+(define-key global-map [remap describe-command] 'helpful-command)
+(provide 'init-helpful)

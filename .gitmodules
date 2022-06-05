@@ -1,0 +1,19 @@
+[submodule "popwin"]
+	path = site-lisp/pkg/popwin
+	url = https://github.com/emacsorphanage/popwin
+[submodule "site-lisp/pkg/emacs-which-key"]
+	path = site-lisp/pkg/emacs-which-key
+	url = https://github.com/justbur/emacs-which-key
+[submodule "site-lisp/pkg/typescript.el"]
+	path = site-lisp/pkg/typescript.el
+	url = https://github.com/emacs-typescript/typescript.el.git
+[submodule "site-lisp/pkg/benchmark-init-el"]
+	path = site-lisp/pkg/benchmark-init-el
+	url = https://github.com/dholm/benchmark-init-el.git
+[submodule "site-lisp/pkg/rust-mode"]
+	path = site-lisp/pkg/rust-mode
+	url = https://github.com/rust-lang/rust-mode
+[submodule "site-lisp/pkg/all-the-icons.el"]
+	path = site-lisp/pkg/all-the-icons.el
+	url = https://github.com/rust-lang/rust-mode
+	

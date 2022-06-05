@@ -1,0 +1,8 @@
+(require 'lsp-bridge)
+(require 'yasnippet)
+(setq lsp-bridge-completion-provider 'corfu)
+(global-lsp-bridge-mode)
+(add-hook 'lsp-bridge-mode-hook (lambda ()
+				  (yas/minor-mode t)
+                                  (add-hook 'xref-backend-functions #'lsp-bridge-xref-backend nil t)))
+(provide 'init-lsp-bridge)
