@@ -28,10 +28,10 @@
 (one-key-create-menu
  "Bongo"
  '((("i" . "Init bongo music.") . bongo-init-all)
-   (("SPC" . "Pasue bongo") . bongo-pause/resume)
+   (("P" . "Pasue bongo") . bongo-pause/resume)
    (("l" . "Forward 10s") . bongo-seek-forward-10)
    (("h" . "Backward 10s") . bongo-seek-backward-10)
-   (("n" . "Next song") . bongo-play-nex)
+   (("n" . "Next song") . bongo-play-next)
    (("p" . "Previous song") . bongo-play-previous)
    (("r" . "Random song") . bongo-play-random)))
 (provide 'init-bongo)

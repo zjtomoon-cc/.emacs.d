@@ -1,4 +1,4 @@
 (require 'hide-mode-line)
 
-(global-hide-mode-line-mode)
+(global-hide-mode-line-mode t)
 (provide 'init-hide-mode-line)

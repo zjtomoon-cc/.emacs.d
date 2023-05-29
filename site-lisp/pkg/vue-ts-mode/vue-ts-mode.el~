@@ -1,0 +1,56 @@
+;; treesit-max-buffer-size 一个buffer启动ts parser的上限数量
+(require 'treesit)
+
+
+(defvar vts--vue-parser nil)
+(defvar vts--typescript-parser nil)
+(defvar vts--javascript-parser nil)
+(defvar vts--script-lang nil)
+(defvar vts--css-parser nil)
+
+(defun vts-setup-vue ()
+  (switch-to-buffer (current-buffer))
+  (setq vts--vue-parser (treesit-parser-create 'vue))
+  )
+
+(setq vue-demo-query '((template_element)))
+(setq demo-result (treesit-query-capture (treesit-buffer-root-node) vue-demo-query))
+(define-derived-mode vue-ts-mode prog-mode "vue-ts-mode"
+  "A treesit mode for vue.js."
+  (cond
+   ((treesit-ready-p 'vue)
+    (vts-setup-vue))))
+
+(treesit-node-children root-node '(quoted_attribute_value))
+(setq vue-parser (treesit-parser-create 'vue (get-buffer "App.vue")))
+
+(setq vue-ts-root-node (treesit-parser-root-node (car (treesit-parser-list (get-buffer "App.vue")))))
+(treesit-query-capture vue-ts-root-node '((component (template_element))))
+
+
+(setq root-node (treesit-buffer-root-node))
+
+(treesit-node-child vue-ts-root-node 1)
+(treesit-node-child-by-field-name vue-ts-root-node "attribute_name")
+(treesit-search-subtree vue-ts-root-node "script_element")
+(treesit-node-type vue-ts-root-node)
+(treesit-node-end vue-ts-root-node)
+(treesit-node-start (treesit-search-subtree vue-ts-root-node "script_element"))
+
+(treesit-node-check vue-ts-root-node 'missing)
+(treesit-query-compile 'vue '((script_element @script-ele)))
+(treesit-query-language script-ele-query)
+
+(setq script-ele-query (treesit-query-compile 'vue '((script_element @script-ele))))
+(treesit-query-capture vue-ts-root-node script-ele-query)
+
+
+(treesit-search-subtree root-node "raw_text")
+(treesit-query-capture root-node '((template_element)))
+(treesit-parser-add-notifier vue-parser 'vue-parser-notifier-func)
+(treesit-parser-remove-notifier vue-parser 'vue-vue-parser-notifier-func)
+(defun vue-parser-notifier-func (range parser)
+  (message "vue parser work: %s %s" range parser))
+
+
+(provide 'vue-ts-mode)

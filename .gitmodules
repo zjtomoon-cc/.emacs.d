@@ -1,19 +1,456 @@
+[submodule "Emacs-wgrep"]
+	path = site-lisp/pkg/Emacs-wgrep
+	url = https://github.com/mhayashi1120/Emacs-wgrep
+[submodule "ace-window"]
+	path = site-lisp/pkg/ace-window
+	url = https://github.com/abo-abo/ace-window
+[submodule "aggressive-indent-mode"]
+	path = site-lisp/pkg/aggressive-indent-mode
+	url = https://github.com/Malabarba/aggressive-indent-mode
+[submodule "amx"]
+	path = site-lisp/pkg/amx
+	url = https://github.com/DarwinAwardWinner/amx
+[submodule "anzu"]
+	path = site-lisp/pkg/anzu
+	url = https://github.com/emacsorphanage/anzu
+[submodule "apheleia"]
+	path = site-lisp/pkg/apheleia
+	url = https://github.com/radian-software/apheleia
+[submodule "async"]
+	path = site-lisp/pkg/async
+	url = https://github.com/emacsmirror/async
+[submodule "auto-save"]
+	path = site-lisp/pkg/auto-save
+	url = https://github.com/manateelazycat/auto-save
+[submodule "avy"]
+	path = site-lisp/pkg/avy
+	url = https://github.com/abo-abo/avy
+[submodule "awesome-tray"]
+	path = site-lisp/pkg/awesome-tray
+	url = https://github.com/manateelazycat/awesome-tray
+[submodule "benchmark-init"]
+	path = site-lisp/pkg/benchmark-init
+	url = https://github.com/dholm/benchmark-init-el
+[submodule "blink-search"]
+	path = site-lisp/pkg/blink-search
+	url = https://github.com/manateelazycat/blink-search
+[submodule "bongo"]
+	path = site-lisp/pkg/bongo
+	url = https://github.com/dbrock/bongo
+[submodule "boon"]
+	path = site-lisp/pkg/boon
+	url = https://github.com/jyp/boon
+[submodule "borg"]
+	path = site-lisp/pkg/borg
+	url = https://github.com/emacscollective/borg
+[submodule "cape"]
+	path = site-lisp/pkg/cape
+	url = https://github.com/minad/cape
+[submodule "cape-yasnippet"]
+	path = site-lisp/pkg/cape-yasnippet
+	url = https://github.com/elken/cape-yasnippet/
+[submodule "cider"]
+	path = site-lisp/pkg/cider
+	url = https://github.com/clojure-emacs/cider
+[submodule "clojure-mode"]
+	path = site-lisp/pkg/clojure-mode
+	url = https://github.com/clojure-emacs/clojure-mode
+[submodule "closql"]
+	path = site-lisp/pkg/closql
+	url = https://github.com/emacscollective/closql
+[submodule "color-theme-sanityinc-tomorrow"]
+	path = site-lisp/pkg/color-theme-sanityinc-tomorrow
+	url = https://github.com/purcell/color-theme-sanityinc-tomorrow
+[submodule "compat"]
+	path = site-lisp/pkg/compat
+	url = https://github.com/emacs-compat/compat
+[submodule "consult"]
+	path = site-lisp/pkg/consult
+	url = https://github.com/minad/consult
+[submodule "consult-dir"]
+	path = site-lisp/pkg/consult-dir
+	url = https://github.com/karthink/consult-dir
+[submodule "consult-eglot"]
+	path = site-lisp/pkg/consult-eglot
+	url = https://github.com/mohkale/consult-eglot
+[submodule "consult-lsp"]
+	path = site-lisp/pkg/consult-lsp
+	url = https://github.com/gagbo/consult-lsp
+[submodule "consult-yasnippet"]
+	path = site-lisp/pkg/consult-yasnippet
+	url = https://github.com/mohkale/consult-yasnippet
+[submodule "corfu"]
+	path = site-lisp/pkg/corfu
+	url = https://github.com/minad/corfu
+[submodule "corfu-doc"]
+	path = site-lisp/pkg/corfu-doc
+	url = https://github.com/galeo/corfu-doc
+[submodule "corfu-doc-terminal"]
+	path = site-lisp/pkg/corfu-doc-terminal
+	url = https://codeberg.org/akib/emacs-corfu-doc-terminal
+[submodule "corfu-terminal"]
+	path = site-lisp/pkg/corfu-terminal
+	url = https://codeberg.org/akib/emacs-corfu-terminal
+[submodule "dart-mode"]
+	path = site-lisp/pkg/dart-mode
+	url = https://github.com/bradyt/dart-mode
+[submodule "dash"]
+	path = site-lisp/pkg/dash
+	url = https://github.com/magnars/dash.el
+[submodule "dash.el"]
+	path = site-lisp/pkg/dash.el
+	url = https://github.com/magnars/dash.el
+[submodule "dashboard"]
+	path = site-lisp/pkg/dashboard
+	url = https://github.com/emacs-dashboard/emacs-dashboard
+[submodule "deno-bridge"]
+	path = site-lisp/pkg/deno-bridge
+	url = https://github.com/manateelazycat/deno-bridge
+[submodule "diff-hl"]
+	path = site-lisp/pkg/diff-hl
+	url = https://github.com/dgutov/diff-hl
+[submodule "dirvish"]
+	path = site-lisp/pkg/dirvish
+	url = https://github.com/alexluigit/dirvish.git
+[submodule "disable-mouse"]
+	path = site-lisp/pkg/disable-mouse
+	url = https://github.com/purcell/disable-mouse
+[submodule "docstr"]
+	path = site-lisp/pkg/docstr
+	url = https://github.com/emacs-vs/docstr
+[submodule "doom-modeline"]
+	path = site-lisp/pkg/doom-modeline
+	url = https://github.com/seagle0128/doom-modeline
+[submodule "doom-themes"]
+	path = site-lisp/pkg/doom-themes
+	url = https://github.com/doomemacs/themes.git
+[submodule "ef-themes"]
+	path = site-lisp/pkg/ef-themes
+	url = https://github.com/emacsmirror/ef-themes.git
+[submodule "eglot"]
+	path = site-lisp/pkg/eglot
+	url = https://github.com/joaotavora/eglot
+[submodule "eldoc-box"]
+	path = site-lisp/pkg/eldoc-box
+	url = https://github.com/casouri/eldoc-box
+[submodule "elisp-demos"]
+	path = site-lisp/pkg/elisp-demos
+	url = https://github.com/xuchunyang/elisp-demos
+[submodule "elisp-refs"]
+	path = site-lisp/pkg/elisp-refs
+	url = https://github.com/Wilfred/elisp-refs
+[submodule "elispfl"]
+	path = site-lisp/pkg/elispfl
+	url = git@github.com:cireu/elispfl
+[submodule "emacs-application-framework"]
+	path = site-lisp/pkg/emacs-application-framework
+	url = https://github.com/emacs-eaf/emacs-application-framework
+[submodule "emacs-fish"]
+	path = site-lisp/pkg/emacs-fish
+	url = https://github.com/wwwjfy/emacs-fish
+[submodule "emacs-gradle-mode"]
+	path = site-lisp/pkg/emacs-gradle-mode
+	url = https://github.com/jacobono/emacs-gradle-mode
+[submodule "emacs-hide-mode-line"]
+	path = site-lisp/pkg/emacs-hide-mode-line
+	url = https://github.com/hlissner/emacs-hide-mode-line
+[submodule "emacs-kaolin-themes"]
+	path = site-lisp/pkg/emacs-kaolin-themes
+	url = https://github.com/ogdenwebb/emacs-kaolin-themes
+[submodule "emacs-libvterm"]
+	path = site-lisp/pkg/emacs-libvterm
+	url = https://github.com/akermu/emacs-libvterm
+[submodule "emacs-popon"]
+	path = site-lisp/pkg/emacs-popon
+	url = https://codeberg.org/akib/emacs-popon
+[submodule "emacs-popon"]
+	path = site-lisp/pkg/emacs-popon
+	url = https://codeberg.org/akib/emacs-popon
+[submodule "emacs-request"]
+	path = site-lisp/pkg/emacs-request
+	url = https://github.com/tkf/emacs-request
+[submodule "emacs-rime"]
+	path = site-lisp/pkg/emacs-rime
+	url = https://github.com/DogLooksGood/emacs-rime
+[submodule "emacs-solaire-mode"]
+	path = site-lisp/pkg/emacs-solaire-mode
+	url = https://github.com/hlissner/emacs-solaire-mode
+[submodule "emacs-websocket"]
+	path = site-lisp/pkg/emacs-websocket
+	url = https://github.com/ahyatt/emacs-websocket
+[submodule "emacs-which-key"]
+	path = site-lisp/pkg/emacs-which-key
+	url = https://github.com/justbur/emacs-which-key
+[submodule "emacsql"]
+	path = site-lisp/pkg/emacsql
+	url = https://github.com/skeeto/emacsql
+[submodule "embark"]
+	path = site-lisp/pkg/embark
+	url = https://github.com/oantolin/embark
+[submodule "emmet-mode"]
+	path = site-lisp/pkg/emmet-mode
+	url = https://github.com/smihica/emmet-mode
+[submodule "epkg"]
+	path = site-lisp/pkg/epkg
+	url = https://github.com/emacscollective/epkg
+[submodule "esup"]
+	path = site-lisp/pkg/esup
+	url = https://github.com/jschaf/esup
+[submodule "exec-path-from-shell"]
+	path = site-lisp/pkg/exec-path-from-shell
+	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "expand-region"]
+	path = site-lisp/pkg/expand-region
+	url = https://github.com/magnars/expand-region.el
+[submodule "f"]
+	path = site-lisp/pkg/f
+	url = https://github.com/rejeep/f.el
+[submodule "f.el"]
+	path = site-lisp/pkg/f.el
+	url = https://github.com/rejeep/f.el
+[submodule "fish-mode"]
+	path = site-lisp/pkg/fish-mode
+	url = https://github.com/emacsmirror/fish-mode
+[submodule "gcmh"]
+	path = site-lisp/pkg/gcmh
+	url = https://github.com/emacsmirror/gcmh
+[submodule "git-link"]
+	path = site-lisp/pkg/git-link
+	url = https://github.com/sshaw/git-link
+[submodule "go-mode.el"]
+	path = site-lisp/pkg/go-mode.el
+	url = https://github.com/dominikh/go-mode.el
+[submodule "go-translate"]
+	path = site-lisp/pkg/go-translate
+	url = https://github.com/lorniu/go-translate.git
+[submodule "goggles"]
+	path = site-lisp/pkg/goggles
+	url = https://github.com/minad/goggles
+[submodule "golden-ratio.el"]
+	path = site-lisp/pkg/golden-ratio.el
+	url = https://github.com/roman/golden-ratio.el
+[submodule "grammatical-edit"]
+	path = site-lisp/pkg/grammatical-edit
+	url = https://github.com/manateelazycat/grammatical-edit.git
+[submodule "groovy-emacs-modes"]
+	path = site-lisp/pkg/groovy-emacs-modes
+	url = https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes
+[submodule "helpful"]
+	path = site-lisp/pkg/helpful
+	url = https://github.com/Wilfred/helpful
+[submodule "hexrgb/emacs-htmlize"]
+	path = site-lisp/pkg/hexrgb/emacs-htmlize
+	url = https://github.com/hniksic/emacs-htmlize
+[submodule "hextorgb"]
+	path = site-lisp/pkg/hextorgb
+	url = https://github.com/syohex/emacs-hex-to-rgba
+[submodule "hl-todo"]
+	path = site-lisp/pkg/hl-todo
+	url = https://github.com/tarsius/hl-todo
+[submodule "ht"]
+	path = site-lisp/pkg/ht
+	url = https://github.com/Wilfred/ht.el
+[submodule "ht.el"]
+	path = site-lisp/pkg/ht.el
+	url = https://github.com/Wilfred/ht.el
+[submodule "hydra"]
+	path = site-lisp/pkg/hydra
+	url = https://github.com/abo-abo/hydra
+[submodule "info+"]
+	path = site-lisp/pkg/info+
+	url = https://github.com/emacsmirror/info-plus.git
+[submodule "insert-kaomoji"]
+	path = site-lisp/pkg/insert-kaomoji
+	url = https://github.com/emacsmirror/insert-kaomoji.git
+[submodule "ivy-rich"]
+	path = site-lisp/pkg/ivy-rich
+	url = https://github.com/Yevgnen/ivy-rich
+[submodule "kind-icon"]
+	path = site-lisp/pkg/kind-icon
+	url = https://github.com/jdtsmith/kind-icon
+[submodule "kotlin-mode"]
+	path = site-lisp/pkg/kotlin-mode
+	url = https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git
+[submodule "lazy-load"]
+	path = site-lisp/pkg/lazy-load
+	url = https://github.com/manateelazycat/lazy-load.git
+[submodule "ligature.el"]
+	path = site-lisp/pkg/ligature.el
+	url = https://github.com/mickeynp/ligature.el
+[submodule "llama"]
+	path = site-lisp/pkg/llama
+	url = https://github.com/emacsmirror/llama
+[submodule "llama"]
+	path = site-lisp/pkg/llama
+	url = https://github.com/emacsmirror/llama
+[submodule "lsp-mode"]
+	path = site-lisp/pkg/lsp-mode
+	url = https://github.com/emacs-lsp/lsp-mode
+[submodule "lua-mode"]
+	path = site-lisp/pkg/lua-mode
+	url = https://github.com/immerrr/lua-mode
+[submodule "magit"]
+	path = site-lisp/pkg/magit
+	url = https://github.com/magit/magit
+[submodule "marginalia"]
+	path = site-lisp/pkg/marginalia
+	url = https://github.com/minad/marginalia.git
+[submodule "marginalia"]
+	path = site-lisp/pkg/marginalia
+	url = https://github.com/minad/marginalia
+[submodule "markdown-mode"]
+	path = site-lisp/pkg/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode
+[submodule "meow"]
+	path = site-lisp/pkg/meow
+	url = https://github.com/meow-edit/meow
+[submodule "mind-wave"]
+	path = site-lisp/pkg/mind-wave
+	url = https://github.com/manateelazycat/mind-wave
+[submodule "mini-frame"]
+	path = site-lisp/pkg/mini-frame
+	url = https://github.com/muffinmad/emacs-mini-frame
+[submodule "multiple-cursors"]
+	path = site-lisp/pkg/multiple-cursors
+	url = https://github.com/magnars/multiple-cursors.el
+[submodule "neotree"]
+	path = site-lisp/pkg/neotree
+	url = https://github.com/jaypei/emacs-neotree
+[submodule "one-key"]
+	path = site-lisp/pkg/one-key
+	url = https://github.com/manateelazycat/one-key.git
+[submodule "orderless"]
+	path = site-lisp/pkg/orderless
+	url = https://github.com/oantolin/orderless
+[submodule "org-modern"]
+	path = site-lisp/pkg/org-modern
+	url = https://github.com/minad/org-modern
+[submodule "ov"]
+	path = site-lisp/pkg/ov
+	url = https://github.com/emacsorphanage/ov
+[submodule "page-break-lines"]
+	path = site-lisp/pkg/page-break-lines
+	url = https://github.com/purcell/page-break-lines
+[submodule "parseclj"]
+	path = site-lisp/pkg/parseclj
+	url = https://github.com/clojure-emacs/parseclj
+[submodule "parseedn"]
+	path = site-lisp/pkg/parseedn
+	url = https://github.com/clojure-emacs/parseedn
+[submodule "pinyinlib.el"]
+	path = site-lisp/pkg/pinyinlib.el
+	url = https://github.com/cute-jumper/pinyinlib.el
 [submodule "popwin"]
 	path = site-lisp/pkg/popwin
 	url = https://github.com/emacsorphanage/popwin
-[submodule "site-lisp/pkg/emacs-which-key"]
-	path = site-lisp/pkg/emacs-which-key
-	url = https://github.com/justbur/emacs-which-key
-[submodule "site-lisp/pkg/typescript.el"]
-	path = site-lisp/pkg/typescript.el
-	url = https://github.com/emacs-typescript/typescript.el.git
-[submodule "site-lisp/pkg/benchmark-init-el"]
-	path = site-lisp/pkg/benchmark-init-el
-	url = https://github.com/dholm/benchmark-init-el.git
-[submodule "site-lisp/pkg/rust-mode"]
+[submodule "posframe"]
+	path = site-lisp/pkg/posframe
+	url = https://github.com/tumashu/posframe
+[submodule "powershell"]
+	path = site-lisp/pkg/powershell
+	url = https://github.com/jschaf/powershell.el
+[submodule "protobuf-ts-mode"]
+	path = site-lisp/pkg/protobuf-ts-mode
+	url = https://git.ookami.one/cgit/protobuf-ts-mode
+[submodule "queue"]
+	path = site-lisp/pkg/queue
+	url = https://github.com/emacsmirror/queue.git
+[submodule "rainbow-identifiers"]
+	path = site-lisp/pkg/rainbow-identifiers
+	url = https://github.com/Fanael/rainbow-identifiers.git
+[submodule "rainbow-mode"]
+	path = site-lisp/pkg/rainbow-mode
+	url = https://github.com/emacsmirror/rainbow-mode
+[submodule "restclient.el"]
+	path = site-lisp/pkg/restclient.el
+	url = https://github.com/pashky/restclient.el.git
+[submodule "ron-mode"]
+	path = site-lisp/pkg/ron-mode
+	url = https://github.com/rhololkeolke/ron-mode
+[submodule "rotate"]
+	path = site-lisp/pkg/rotate
+	url = https://github.com/daichirata/emacs-rotate
+[submodule "rust-mode"]
 	path = site-lisp/pkg/rust-mode
 	url = https://github.com/rust-lang/rust-mode
-[submodule "site-lisp/pkg/all-the-icons.el"]
-	path = site-lisp/pkg/all-the-icons.el
-	url = https://github.com/rust-lang/rust-mode
-	
+[submodule "s"]
+	path = site-lisp/pkg/s
+	url = https://github.com/magnars/s.el
+[submodule "s.el"]
+	path = site-lisp/pkg/s.el
+	url = https://github.com/magnars/s.el
+[submodule "sesman"]
+	path = site-lisp/pkg/sesman
+	url = https://github.com/vspinu/sesman
+[submodule "shrink-path"]
+	path = site-lisp/pkg/shrink-path
+	url = https://gitlab.com/bennya/shrink-path.el
+[submodule "spinner"]
+	path = site-lisp/pkg/spinner
+	url = https://github.com/Malabarba/spinner.el
+[submodule "stumpwm-mode"]
+	path = site-lisp/pkg/stumpwm-mode
+	url = https://github.com/emacsmirror/stumpwm-mode.git
+[submodule "sudo-edit"]
+	path = site-lisp/pkg/sudo-edit
+	url = https://github.com/nflath/sudo-edit
+[submodule "swiper"]
+	path = site-lisp/pkg/swiper
+	url = https://github.com/abo-abo/swiper
+[submodule "tao-theme"]
+	path = site-lisp/pkg/tao-theme
+	url = https://github.com/11111000000/tao-theme-emacs
+[submodule "telega.el"]
+	path = site-lisp/pkg/telega.el
+	url = https://github.com/zevlg/telega.el
+[submodule "tempel"]
+	path = site-lisp/pkg/tempel
+	url = https://github.com/minad/tempel
+[submodule "tldr.el"]
+	path = site-lisp/pkg/tldr.el
+	url = https://github.com/kuanyui/tldr.el
+[submodule "transient"]
+	path = site-lisp/pkg/transient
+	url = https://github.com/magit/transient
+[submodule "typescript.el"]
+	path = site-lisp/pkg/typescript.el
+	url = https://github.com/emacs-typescript/typescript.el
+[submodule "valign"]
+	path = site-lisp/pkg/valign
+	url = https://github.com/casouri/valign
+[submodule "vertico"]
+	path = site-lisp/pkg/vertico
+	url = https://github.com/minad/vertico
+[submodule "vimish-fold"]
+	path = site-lisp/pkg/vimish-fold
+	url = https://github.com/matsievskiysv/vimish-fold
+[submodule "visual-fill-column"]
+	path = site-lisp/pkg/visual-fill-column
+	url = https://github.com/joostkremers/visual-fill-column
+[submodule "vundo"]
+	path = site-lisp/pkg/vundo
+	url = https://github.com/casouri/vundo
+[submodule "wakatime-mode"]
+	path = site-lisp/pkg/wakatime-mode
+	url = https://github.com/wakatime/wakatime-mode
+[submodule "web-mode"]
+	path = site-lisp/pkg/web-mode
+	url = https://github.com/fxbois/web-mode
+[submodule "which-key"]
+	path = site-lisp/pkg/which-key
+	url = https://github.com/justbur/emacs-which-key
+[submodule "with-editor"]
+	path = site-lisp/pkg/with-editor
+	url = https://github.com/magit/with-editor.git
+[submodule "writeroom-mode"]
+	path = site-lisp/pkg/writeroom-mode
+	url = https://github.com/joostkremers/writeroom-mode
+[submodule "yaml-mode"]
+	path = site-lisp/pkg/yaml-mode
+	url = https://github.com/yoshiki/yaml-mode
+[submodule "yasnippet"]
+	path = site-lisp/pkg/yasnippet
+	url = https://github.com/joaotavora/yasnippet
+[submodule "yasnippet-snippets"]
+	path = site-lisp/pkg/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets

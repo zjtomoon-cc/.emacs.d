@@ -1,36 +1,57 @@
 ;;;###autoload
 (defun +evan/set-cn-fonts ()
   (interactive)
-  (dolist (charset '(kana han symbol cjk-misc bopomofo))
+  (dolist (charset '(kana han symbol cjk-misc bopomofo chinese-gbk))
     (set-fontset-font
      "fontset-default"
      charset
-     (font-spec :name "Sarasa Mono SC"
-                :style 'normal
-                :weight 'normal
+     (font-spec :name +evan/cn-font
                 :slant 'normal
-                :size 13.0))))
+                :size +evan/cn-font-size))))
 ;;;###autoload
 (defun +evan/set-fonts ()
   (interactive)
   (when (window-system)
     (progn
-        (if (version< "27.0" emacs-version)
-            (set-fontset-font
-             "fontset-default" 'unicode "Noto Color Emoji" nil 'prepend)
-          (set-fontset-font
-           t 'symbol (font-spec :family "Noto Color Emoji") nil 'prepend))
-        (setq face-font-rescale-alist nil)
-        (set-face-attribute
-         'default nil
-         :font (font-spec :family "Iosevka"
-                          :weight 'semi-bold
-                          :slant 'normal
-                          :size 13.0))
-        (+evan/set-cn-fonts))))
+      ;; 设置Emoji字体
+      (let ((fonts '("Noto Color Emoji")))
+        (cl-loop with script = (if (>= emacs-major-version 28)
+        'emoji 'unicode)
+                 for font in fonts
+                 when (member font (font-family-list))
+                 return (set-fontset-font t script (font-spec
+						    :family font) nil 'prepend)))
+      ;; 设置default face字体
+      (set-face-attribute
+       'default nil
+       :font (font-spec :family +evan/en-font
+                        :weight 'medium
+                        :size +evan/font-size))
+      ;; 设置fixed-pitch-serif face字体
+      (set-face-attribute
+       'fixed-pitch-serif nil
+       :font (font-spec :family +evan/en-font
+                        :weight 'normal
+                        :slant 'italic
+                        :size +evan/font-size))
+      (set-face-attribute
+       'fixed-pitch nil
+       :font (font-spec :family +evan/en-font
+                        :weight 'normal
+                        :size +evan/font-size))
+      (set-face-attribute
+       'variable-pitch nil
+       :font (font-spec :family +evan/en-font
+                        :weight 'normal
+                        :size +evan/font-size))
+
+      (+evan/set-cn-fonts))))
+
+(setq +evan/en-font "BlexMono NerdFont"
+      +evan/cn-font "等距更纱黑体 SC"
+      +evan/font-size 14.5
+      +evan/cn-font-size 13.5)
 
 
-(+evan/set-fonts)
-(+evan/set-cn-fonts)
 
 (provide 'init-font)

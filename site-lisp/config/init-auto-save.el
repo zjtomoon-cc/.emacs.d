@@ -1,7 +1,12 @@
-(require 'auto-save)
+(add-hook 'prog-mode-hook (lambda ()
+			    (require 'auto-save)
+			    (auto-save-enable)
+			    (setq auto-save-silent t
+				  auto-save-idle 2)
+			    (setq auto-save-disable-predicates
+				  '((lambda ()
+				      (eq major-mode 'ron-mode))))))
 
-(setq auto-save-silent t)
-(auto-save-enable)
 
 
 (provide 'init-auto-save)
