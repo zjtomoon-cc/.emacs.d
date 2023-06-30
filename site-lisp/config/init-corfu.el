@@ -4,8 +4,8 @@
       corfu-quit-at-boundary t
       corfu-quit-no-match t
       corfu-preview-current t
-      corfu-auto-prefix 2
-      corfu-auto-delay 0.1
+      corfu-auto-prefix 1
+      corfu-auto-delay 0.01
       completion-ignore-case t
       read-file-name-completion-ignore-case t
       read-buffer-completion-ignore-case t
@@ -55,7 +55,6 @@
 			       ))
 (with-eval-after-load 'corfu-history (progn
 				       (add-to-list 'savehist-additional-variables 'corfu-history)))
-
 ;; cape
 (with-eval-after-load 'cape (progn
 			      (require 'cape-keyword)
@@ -67,7 +66,7 @@
 							  (setq-local completion-at-point-functions (list (cape-super-capf
 													   #'cape-dabbrev
 													   #'cape-dict)))))
-			      (dolist (hook '(go-ts-mode-hook web-mode-hook typescript-ts-mode-hook))
+			      (dolist (hook '(go-ts-mode-hook web-mode-hook typescript-ts-mode-hook emacs-lisp-mode-hook))
 				(add-hook hook (lambda ()
 						 (setq-local completion-at-point-functions
 							     (list (cape-super-capf

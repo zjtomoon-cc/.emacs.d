@@ -27,10 +27,10 @@
 (setq lsp-bridge-single-lang-server-extension-list nil)
 
 ;; eglot开启的模式不要启动
-(-each eglot-enable-modes
-  (lambda (mode)
-    (setq lsp-bridge-default-mode-hooks
-	  (-remove-item mode lsp-bridge-default-mode-hooks))))
+;; (-each eglot-enable-modes
+;;   (lambda (mode)
+;;     (setq lsp-bridge-default-mode-hooks
+;; 	  (-remove-item mode lsp-bridge-default-mode-hooks))))
 
 
 

@@ -47,7 +47,7 @@
 
       (+evan/set-cn-fonts))))
 
-(setq +evan/en-font "BlexMono NerdFont"
+(setq +evan/en-font "SourceCodeVF"
       +evan/cn-font "等距更纱黑体 SC"
       +evan/font-size 14.5
       +evan/cn-font-size 13.5)

@@ -43,6 +43,9 @@
 [submodule "borg"]
 	path = site-lisp/pkg/borg
 	url = https://github.com/emacscollective/borg
+[submodule "bui"]
+	path = site-lisp/pkg/bui
+	url = https://github.com/alezost/bui.el
 [submodule "cape"]
 	path = site-lisp/pkg/cape
 	url = https://github.com/minad/cape
@@ -91,6 +94,9 @@
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
+[submodule "dap-mode"]
+	path = site-lisp/pkg/dap-mode
+	url = https://github.com/emacs-lsp/dap-mode
 [submodule "dart-mode"]
 	path = site-lisp/pkg/dart-mode
 	url = https://github.com/bradyt/dart-mode
@@ -211,6 +217,12 @@
 [submodule "fish-mode"]
 	path = site-lisp/pkg/fish-mode
 	url = https://github.com/emacsmirror/fish-mode
+[submodule "fleetish-theme"]
+	path = site-lisp/pkg/fleetish-theme
+	url = https://github.com/nylar/fleetish-emacs-theme
+[submodule "flycheck"]
+	path = site-lisp/pkg/flycheck
+	url = https://github.com/flycheck/flycheck
 [submodule "gcmh"]
 	path = site-lisp/pkg/gcmh
 	url = https://github.com/emacsmirror/gcmh
@@ -283,9 +295,18 @@
 [submodule "llama"]
 	path = site-lisp/pkg/llama
 	url = https://github.com/emacsmirror/llama
+[submodule "lsp-bridge"]
+	path = site-lisp/pkg/lsp-bridge
+	url = https://github.com/manateelazycat/lsp-bridge
+[submodule "lsp-docker"]
+	path = site-lisp/pkg/lsp-docker
+	url = https://github.com/emacs-lsp/lsp-docker
 [submodule "lsp-mode"]
 	path = site-lisp/pkg/lsp-mode
 	url = https://github.com/emacs-lsp/lsp-mode
+[submodule "lsp-treemacs"]
+	path = site-lisp/pkg/lsp-treemacs
+	url = https://github.com/emacs-lsp/lsp-treemacs
 [submodule "lua-mode"]
 	path = site-lisp/pkg/lua-mode
 	url = https://github.com/immerrr/lua-mode
@@ -310,6 +331,9 @@
 [submodule "mini-frame"]
 	path = site-lisp/pkg/mini-frame
 	url = https://github.com/muffinmad/emacs-mini-frame
+[submodule "multi-vterm"]
+	path = site-lisp/pkg/multi-vterm
+	url = https://github.com/suonlight/multi-vterm
 [submodule "multiple-cursors"]
 	path = site-lisp/pkg/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el
@@ -337,6 +361,9 @@
 [submodule "parseedn"]
 	path = site-lisp/pkg/parseedn
 	url = https://github.com/clojure-emacs/parseedn
+[submodule "pfuture"]
+	path = site-lisp/pkg/pfuture
+	url = https://github.com/Alexander-Miller/pfuture
 [submodule "pinyinlib.el"]
 	path = site-lisp/pkg/pinyinlib.el
 	url = https://github.com/cute-jumper/pinyinlib.el
@@ -412,6 +439,9 @@
 [submodule "transient"]
 	path = site-lisp/pkg/transient
 	url = https://github.com/magit/transient
+[submodule "treemacs"]
+	path = site-lisp/pkg/treemacs
+	url = https://github.com/Alexander-Miller/treemacs
 [submodule "typescript.el"]
 	path = site-lisp/pkg/typescript.el
 	url = https://github.com/emacs-typescript/typescript.el
@@ -445,6 +475,9 @@
 [submodule "writeroom-mode"]
 	path = site-lisp/pkg/writeroom-mode
 	url = https://github.com/joostkremers/writeroom-mode
+[submodule "yaml"]
+	path = site-lisp/pkg/yaml
+	url = https://github.com/zkry/yaml.el
 [submodule "yaml-mode"]
 	path = site-lisp/pkg/yaml-mode
 	url = https://github.com/yoshiki/yaml-mode

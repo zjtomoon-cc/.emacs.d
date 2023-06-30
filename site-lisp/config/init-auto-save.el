@@ -2,7 +2,7 @@
 			    (require 'auto-save)
 			    (auto-save-enable)
 			    (setq auto-save-silent t
-				  auto-save-idle 2)
+				  auto-save-idle 1)
 			    (setq auto-save-disable-predicates
 				  '((lambda ()
 				      (eq major-mode 'ron-mode))))))

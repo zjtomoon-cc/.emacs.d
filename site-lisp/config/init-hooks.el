@@ -11,7 +11,7 @@
 			     (global-hl-todo-mode t)
 			     (auto-save-mode t)))
 
-(add-hook 'Info-mode-hook #'Info-persist-history-mode)
+;; (add-hook 'Info-mode-hook #'Info-persist-history-mode)
 
 
 (provide 'init-hooks)

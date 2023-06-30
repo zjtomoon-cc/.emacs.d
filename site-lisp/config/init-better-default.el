@@ -32,11 +32,12 @@
 ;; 关闭dir local
 (setq enable-dir-local-variables t)
 (setq scroll-margin 0); 设定滚动边距
-(setq truncate-lines t) ; 不要换行
-(setq truncate-partial-width-windows 80)
+(setq-default truncate-lines t) ; 不要换行
+(setq truncate-partial-width-windows nil)
 (setq fill-column 180)
 ;; 环境变量
 (add-to-list 'exec-path "~/.npm-global/bin")
+(recentf-mode t)
 
 ;; 自定义 *scratch* 内容
 ;;;###autoload
@@ -44,7 +45,6 @@
   (interactive)
   (add-hook 'after-init-hook
 	    (lambda ()
-	      (recentf-mode t)
 	      (save-excursion
 		(display-line-numbers-mode t)
 		(with-current-buffer (get-buffer "*scratch*")

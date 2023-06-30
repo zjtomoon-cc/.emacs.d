@@ -3,7 +3,6 @@
 (require 'init-valign)
 (require 'init-org-agenda)
 (require 'init-org-capture)
-
 (setq org-todo-keywords '((sequence "TODO(t)" "WAIT(w)" "|" "DONE(d)" "KILL(k)")))
 
 (let ((faces '(("TODO" . (:foreground "#fbf7f0" :background "#006800"))

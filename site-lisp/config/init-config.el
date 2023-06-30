@@ -9,6 +9,7 @@
 (require 'init-treesit)
 (require 'init-rime)
 ;; (require 'init-eglot)
+(require 'init-flycheck)
 (require 'init-lsp)
 (require 'init-corfu)
 ;; (require 'init-lsp-bridge)
@@ -21,11 +22,13 @@
 (require 'init-minibuffer-completion)
 (require 'init-meow)
 (+evan/set-fonts)
-(enable-theme 'sanityinc-tomorrow-day)
+(enable-theme 'doom-nord-light)
 ;; (+evan/read-dekstop)
 
 ;; 启动1s后再开启gc管理
 (run-with-idle-timer 1 0 (lambda ()
 			   (require 'init-gcmh)))
+
 ;; (benchmark-init/deactivate)
+
 (provide 'init-config)

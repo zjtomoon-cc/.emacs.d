@@ -3,19 +3,19 @@
 ;;   (add-hook hook 'eglot-ensure))
 
 (setq tab-always-indent 'complete)
-(setq eglot-events-buffer-size 0)
+(setq eglot-events-buffer-size nil)
 (setq eglot-autoreconnect nil)
 (setq eglot-ignored-server-capabilities '(:inlayHintProvider))
 (setq eglot-inlay-hints-mode nil)
 
-(setq eglot-enable-modes '(go-ts-mode-hook rust-ts-mode-hook rust-mode-hook bash-ts-mode-hook sh-mode-hook clojure-mode-hook python-ts-mode-hook python-mode-hook))
+(setq eglot-enable-modes '(go-ts-mode-hook rust-ts-mode-hook rust-mode-hook bash-ts-mode-hook sh-mode-hook clojure-mode-hook python-ts-mode-hook python-mode-hook web-mode-hook))
 
 (dolist (hook eglot-enable-modes)
  (add-hook hook #'eglot-ensure))
 
 ;; hooks
 (add-hook 'eglot-managed-mode-hook (lambda ()
-				     (yas-minor-mode t)
+				     ;; (yas-minor-mode t)
 				     ;; eldoc-box
 				     (eldoc-box-hover-at-point-mode t)
 				     ;; capf
@@ -26,7 +26,7 @@
 
 
 (with-eval-after-load 'eglot (progn
-			       (require 'yasnippet)
+			       ;; (require 'yasnippet)
 			       (require 'init-corfu)
 			       (require 'eldoc-box)
 			       (setq eldoc-idle-delay 1)))
@@ -84,28 +84,28 @@
 
 (add-to-list 'eglot-server-programs '(dart-mode . ("dart" "language-server")))
 (add-to-list 'eglot-server-programs '(kotlin-mode . ("kotlin-language-server")))
-;; (add-to-list 'eglot-server-programs
-;;              '((web-mode)
-;;                .
-;;                ("vue-language-server" "--stdio"
-;;                 :initializationOptions
-;;                 (:typescript
-;;                  (:tsdk "/usr/lib/node_modules/typescript/lib/")
-;;                  :languageFeatures
-;;                  (
-;;                   :references t
-;;                   :implementation t
-;;                   :definition t
-;;                   :typeDefinition t
-;;                   :callHierarchy nil
-;;                   :hover nil
-;;                   :rename t
-;;                   :renameFileRefactoring nil
-;;                   :signatureHelp nil
-;;                   :codeAction nil
-;;                   :workspaceSymbol nil
-;;                   :completion t)
-;; 		 ))))
+(add-to-list 'eglot-server-programs
+             '((web-mode)
+               .
+               ("vue-language-server" "--stdio"
+                :initializationOptions
+                (:typescript
+                 (:tsdk "/usr/lib/node_modules/typescript/lib/")
+                 :languageFeatures
+                 (
+                  :references t
+                  :implementation t
+                  :definition t
+                  :typeDefinition t
+                  :callHierarchy nil
+                  :hover nil
+                  :rename t
+                  :renameFileRefactoring nil
+                  :signatureHelp nil
+                  :codeAction nil
+                  :workspaceSymbol nil
+                  :completion t)
+		 ))))
 
 
 ;; (add-hook 'web-mode-hook (lambda ()

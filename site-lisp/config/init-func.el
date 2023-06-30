@@ -28,8 +28,8 @@
   (if (null url-proxy-services)
       (progn
         (setq url-proxy-services
-              '(("http" . "127.0.0.1:1085")
-                ("https" . "127.0.0.1:1085")))
+              '(("http" . "192.168.1.128:1085")
+                ("https" . "192.168.1.128:1085")))
         (message "代理已开启."))
     (setq url-proxy-services nil)
     (message "代理已关闭.")))
