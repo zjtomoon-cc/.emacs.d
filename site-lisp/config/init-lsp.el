@@ -17,6 +17,11 @@
 				    lsp-dart-show-outline t
 				    lsp-dart-show-flutter-outline t)))
 
+(use-package lsp-pyright
+  :hook (python-mode . (lambda ()
+			 (require 'lsp-pyright)
+			 (lsp-deferred))))
+
 (use-package lsp-mode
   :init
   (setq lsp-keymap-prefix ""
@@ -28,7 +33,8 @@
 	lsp-enable-on-type-formatting nil
 	lsp-enable-relative-indentation nil
 	lsp-headerline-breadcrumb-enable nil
-	lsp-inlay-hint-enable t
+	lsp-inlay-hint-enable nil
+	lsp-log-io nil
 	lsp-lens-enable nil)
   ;; lsp fancy features
   (setq
@@ -50,35 +56,10 @@
   (lsp-completion-provider :none)
   :hook ((lsp-completion-mode . +evan/lsp-mode-setup-completion)
 	 (lsp-managed-mode . yas-minor-mode)
-	 (lsp-managed-mode . eldoc-box-hover-mode)
 	 (lsp-managed-mode . flycheck-mode))
   :config
   (add-hook 'orderless-style-dispatchers #'+evan/orderless-dispatch-flex-first nil 'local)
-
-
-
-
-
-  ;; custom language server
-  ;; (add-to-list 'lsp-language-id-configuration '(web-mode . "unocss"))
-
-
-  ;; (defun lsp-unocss--initialization-options ()
-  ;;   "The unocss-language-server requires configuration not be null."
-  ;;   (ht ("configuration" (lsp-configuration-section "unocss"))))
-  ;; (lsp-register-client
-  ;;  (make-lsp-client
-  ;;   :new-connection (lsp-stdio-connection "unocss-language-server --stdio")
-  ;;   :activation-fn (lambda (filename &optional _)
-  ;;                  (when t
-  ;;                    (or (string-match-p (rx (one-or-more anything) "."
-  ;;                                            (or "tsx" "jsx" "vue")eos)
-  ;;                                        filename)
-  ;;                        (and (derived-mode-p  'typescript-mode 'typescript-ts-mode 'web-mode)
-  ;;                             (not (string-match-p "\\.json\\'" filename))))))
-  ;;   :initialization-options #'lsp-unocss--initialization-options
-  ;;   :add-on? t
-  ;;   :server-id 'unocss))
+  ;; (require 'lsp-unocss)
   )
 
 

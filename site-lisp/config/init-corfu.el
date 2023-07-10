@@ -9,6 +9,7 @@
       completion-ignore-case t
       read-file-name-completion-ignore-case t
       read-buffer-completion-ignore-case t
+      corfu-doc-auto nil
      )
 
 

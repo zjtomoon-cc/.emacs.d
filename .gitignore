@@ -31,3 +31,7 @@ history
 /info-history
 /lsp-bridge/
 /games/
+/.dap-breakpoints
+/blink-search/
+/codeium/
+/devdocs/

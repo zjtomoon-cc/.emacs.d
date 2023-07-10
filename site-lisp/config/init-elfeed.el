@@ -1,6 +1,6 @@
-;; (require 'elfeed)
-;; (elfeed-add-feed "https://sachachua.com/blog/category/emacs/feed/")
-;; (elfeed-add-feed "https://emacs-china.org/posts.rss")
-;; (elfeed-add-feed "https://emacs-china.org/latest.rss")
-;; (elfeed-update)
-;; (provide 'init-elfeed)
+(setup elfeed
+  (:option elfeed-feeds (list "https://sachachua.com/blog/category/emacs/feed/"
+			      "https://www.solidot.org/index.rss"
+			      "https://irreal.org/blog/?feed=rss2"
+			      "https://zck.org/feed.rss")))
+(provide 'init-elfeed)

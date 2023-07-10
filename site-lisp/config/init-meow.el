@@ -49,6 +49,7 @@
     
   (meow-leader-define-key
    ;; SPC j/k will run the original command in MOTION state.
+  '("`" . +evan/popup-scratch)
    '("t" . one-key-menu-toggle)
    '("f" . one-key-menu-file)
    '("s" . one-key-menu-search)

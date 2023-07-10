@@ -7,4 +7,5 @@
 
 (setq dired-listing-switches "-alh"
       dired-auto-revert-buffer t)
+
 (provide 'init-dired)

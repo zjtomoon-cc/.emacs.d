@@ -55,6 +55,8 @@
 (autoload 'prog-mode "init-xref" nil nil)
 (autoload 'dart-mode "dart-mode" nil nil)
 (autoload 'web-mode "init-web" nil nil)
+(with-eval-after-load 'magit-mode
+  (require 'init-magit))
 
 (with-eval-after-load 'elisp-mode
   (require 'elispfl)

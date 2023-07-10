@@ -1,4 +1,4 @@
-(setq initial-buffer-choice t)
+(setq initial-buffer-choice nil)
 (setq user-full-name "Evan Meek")       ;设置用户名
 (setq user-mail-address
       "the_lty_mail@foxmail.com") 	;设置邮箱
@@ -18,12 +18,12 @@
 (setq bidi-inhibit-bpa t)
 (setq bidi-paragraph-direction 'left-to-right)
 
-
 (defalias 'yes-or-no-p 'y-or-n-p)
 (setq yes-or-no-prompt "(y or n)")
 
 (pixel-scroll-mode t)
 (pixel-scroll-precision-mode t)
+(global-hl-line-mode t)
 (setq scroll-step 1)
 ;; 关闭自动备份文件
 (setq make-backup-files nil)

@@ -45,4 +45,12 @@
       (set-frame-parameter (selected-frame) 'alpha-background 70)
     (set-frame-parameter (selected-frame) 'alpha-background 100)))
 
+;;;###autoload
+(defun +evan/popup-scratch ()
+  (interactive)
+  (let ((buf-name (concat "*scratch*-" (format-time-string "%H:%m:%S"))))
+    (with-current-buffer (get-buffer-create buf-name)
+      (call-interactively 'text-mode)
+      (popwin:popup-buffer (current-buffer)))))
+
 (provide 'init-func)

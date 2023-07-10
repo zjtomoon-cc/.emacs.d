@@ -1,9 +1,9 @@
 ;; 保存desktop
+(setq desktop-save t
+      desktop-auto-save-timeout 5)
+(savehist-mode t)
 (desktop-save-mode 1)
-(setq desktop-save t)
 
-;; (add-hook 'after-init-hook (lambda ()
-;; 			     (desktop-read "/home/evanmeek/.emacs.d/data/desktop")))
 (desktop-file-name "~/.emacs.d/desktop/.emacs.desktop"
 		   "~/.emacs.d/desktop")
 
@@ -11,4 +11,4 @@
   (interactive)
   (desktop-read "~/.emacs.d/desktop/.emacs.desktop"))
 
-(provide 'init-desktop)
+(provide 'init-session)

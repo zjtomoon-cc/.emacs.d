@@ -168,6 +168,8 @@
 
 (lazy-one-key-create-menu "code-lsp"
 			  (:key "f" :description "Format code" :command apheleia-format-buffer :filename "init-format")
+			  ;; (:key "k" :description "lsp ui doc" :command lsp-ui-doc-show :filename "lsp-ui")
+			  ;; (:key "u" :description "lsp ui imenu" :command lsp-ui-imenu :filename "lsp-ui")
 			  (:key "d" :description "lsp jump to def" :command lsp-find-definition :filename "init-lsp")
 			  (:key "D" :description "lsp jump to def other window" :command xref-find-definitions-other-window :filename "xref")
 			  (:key "b" :description "lsp jump back" :command xref-go-back :filename "xref")

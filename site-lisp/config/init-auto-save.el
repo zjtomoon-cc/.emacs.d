@@ -8,5 +8,4 @@
 				      (eq major-mode 'ron-mode))))))
 
 
-
 (provide 'init-auto-save)

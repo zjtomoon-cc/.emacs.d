@@ -61,6 +61,9 @@
 [submodule "closql"]
 	path = site-lisp/pkg/closql
 	url = https://github.com/emacscollective/closql
+[submodule "codeium"]
+	path = site-lisp/pkg/codeium
+	url = git@github.com:Exafunction/codeium.el.git
 [submodule "color-theme-sanityinc-tomorrow"]
 	path = site-lisp/pkg/color-theme-sanityinc-tomorrow
 	url = https://github.com/purcell/color-theme-sanityinc-tomorrow
@@ -112,6 +115,9 @@
 [submodule "deno-bridge"]
 	path = site-lisp/pkg/deno-bridge
 	url = https://github.com/manateelazycat/deno-bridge
+[submodule "devdocs"]
+	path = site-lisp/pkg/devdocs
+	url = https://github.com/astoff/devdocs.el
 [submodule "diff-hl"]
 	path = site-lisp/pkg/diff-hl
 	url = https://github.com/dgutov/diff-hl
@@ -139,6 +145,9 @@
 [submodule "eldoc-box"]
 	path = site-lisp/pkg/eldoc-box
 	url = https://github.com/casouri/eldoc-box
+[submodule "elfeed"]
+	path = site-lisp/pkg/elfeed
+	url = https://github.com/skeeto/elfeed
 [submodule "elisp-demos"]
 	path = site-lisp/pkg/elisp-demos
 	url = https://github.com/xuchunyang/elisp-demos
@@ -247,6 +256,9 @@
 [submodule "groovy-emacs-modes"]
 	path = site-lisp/pkg/groovy-emacs-modes
 	url = https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes
+[submodule "haki"]
+	path = site-lisp/pkg/haki
+	url = https://github.com/idlip/haki
 [submodule "helpful"]
 	path = site-lisp/pkg/helpful
 	url = https://github.com/Wilfred/helpful
@@ -304,6 +316,9 @@
 [submodule "lsp-mode"]
 	path = site-lisp/pkg/lsp-mode
 	url = https://github.com/emacs-lsp/lsp-mode
+[submodule "lsp-pyright"]
+	path = site-lisp/pkg/lsp-pyright
+	url = https://github.com/emacs-lsp/lsp-pyright
 [submodule "lsp-treemacs"]
 	path = site-lisp/pkg/lsp-treemacs
 	url = https://github.com/emacs-lsp/lsp-treemacs
@@ -337,9 +352,6 @@
 [submodule "multiple-cursors"]
 	path = site-lisp/pkg/multiple-cursors
 	url = https://github.com/magnars/multiple-cursors.el
-[submodule "neotree"]
-	path = site-lisp/pkg/neotree
-	url = https://github.com/jaypei/emacs-neotree
 [submodule "one-key"]
 	path = site-lisp/pkg/one-key
 	url = https://github.com/manateelazycat/one-key.git
@@ -409,6 +421,9 @@
 [submodule "sesman"]
 	path = site-lisp/pkg/sesman
 	url = https://github.com/vspinu/sesman
+[submodule "setup"]
+	path = site-lisp/pkg/setup
+	url = https://github.com/emacsmirror/setup.git
 [submodule "shrink-path"]
 	path = site-lisp/pkg/shrink-path
 	url = https://gitlab.com/bennya/shrink-path.el

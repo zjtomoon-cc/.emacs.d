@@ -12,7 +12,7 @@
 (require 'init-flycheck)
 (require 'init-lsp)
 (require 'init-corfu)
-;; (require 'init-lsp-bridge)
+;; (require 'init-lspd-bridge)
 (require 'init-key)
 (require 'init-window)
 (require 'init-helpful)
@@ -21,14 +21,16 @@
 (require 'init-face)
 (require 'init-minibuffer-completion)
 (require 'init-meow)
+(require 'init-elfeed)
 (+evan/set-fonts)
-(enable-theme 'doom-nord-light)
+(enable-theme +evan-theme)
+(require 'init-session)
 ;; (+evan/read-dekstop)
 
 ;; 启动1s后再开启gc管理
 (run-with-idle-timer 1 0 (lambda ()
 			   (require 'init-gcmh)))
 
-;; (benchmark-init/deactivate)
+;;(benchmark-init/deactivate)
 
 (provide 'init-config)
