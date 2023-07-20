@@ -448,6 +448,12 @@
 [submodule "tempel"]
 	path = site-lisp/pkg/tempel
 	url = https://github.com/minad/tempel
+[submodule "thrift"]
+	path = site-lisp/pkg/thrift
+	url = https://github.com/emacsmirror/thrift.git
+[submodule "thrift-mode"]
+	path = site-lisp/pkg/thrift-mode
+	url = https://github.com/davidmiller/thrift-mode
 [submodule "tldr.el"]
 	path = site-lisp/pkg/tldr.el
 	url = https://github.com/kuanyui/tldr.el

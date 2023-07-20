@@ -1,15 +1,19 @@
-(advice-add 'awesome-tray-update :after '(lambda () (hide-mode-line-mode t)))
+;; (advice-add 'awesome-tray-update :after '(lambda () (hide-mode-line-mode t)))
 
-(add-hook 'prog-mode-hook #'goggles-mode)
+(add-hook 'prog-mode-hook
+	  (lambda ()
+	    (goggles-mode)))
 
-(add-hook 'after-init-hook (lambda ()
-			     (setq-default recentf-max-saved-items 1000)
+
+(add-hook 'after-init-hook #'(lambda ()
 			     (savehist-mode t)
-			     (save-place-mode t)
 			     (winner-mode t)
 			     (global-auto-revert-mode t)
 			     (global-hl-todo-mode t)
-			     (auto-save-mode t)))
+			     ))
+
+
+(with-eval-after-load "prog-mode" (save-place-mode t))
 
 ;; (add-hook 'Info-mode-hook #'Info-persist-history-mode)
 

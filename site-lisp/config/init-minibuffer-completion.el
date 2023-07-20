@@ -17,10 +17,10 @@
 ;; 允许vertico在minibuffer内补全
 (setq completion-in-region-function
       (lambda (&rest args)
-        (apply (if vertico-mode
-                   #'consult-completion-in-region
-                 #'completion--in-region)
-               args)))
+	(apply (if vertico-mode
+		   #'consult-completion-in-region
+		 #'completion--in-region)
+	       args)))
 
 (lazy-load-local-keys '(("C-DEL" . vertico-directory-delete-word)
 			("DEL" . vertico-directory-delete-char))

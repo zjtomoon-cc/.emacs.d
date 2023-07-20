@@ -37,6 +37,8 @@
 (setq fill-column 180)
 ;; 环境变量
 (add-to-list 'exec-path "~/.npm-global/bin")
+(setq-default recentf-max-saved-items 1000)
+
 (recentf-mode t)
 
 ;; 自定义 *scratch* 内容

@@ -8,23 +8,27 @@
 (require 'init-ediff)
 (require 'init-treesit)
 (require 'init-rime)
-;; (require 'init-eglot)
-(require 'init-flycheck)
-(require 'init-lsp)
-(require 'init-corfu)
-;; (require 'init-lspd-bridge)
 (require 'init-key)
 (require 'init-window)
 (require 'init-helpful)
 (require 'init-xref)
 (require 'init-auto-save)
 (require 'init-face)
-(require 'init-minibuffer-completion)
-(require 'init-meow)
-(require 'init-elfeed)
+
+
+(add-hook 'window-setup-hook
+	  (lambda ()
+	    (require 'init-flycheck)
+	    (require 'init-lsp)
+	    (require 'init-corfu)
+	    (require 'init-minibuffer-completion)
+	    (require 'init-meow)
+	    (require 'init-elfeed)
+	    ))
+
 (+evan/set-fonts)
 (enable-theme +evan-theme)
-(require 'init-session)
+;; (require 'init-session)
 ;; (+evan/read-dekstop)
 
 ;; 启动1s后再开启gc管理
