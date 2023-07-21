@@ -97,9 +97,6 @@
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
-[submodule "dap-mode"]
-	path = site-lisp/pkg/dap-mode
-	url = https://github.com/emacs-lsp/dap-mode
 [submodule "dart-mode"]
 	path = site-lisp/pkg/dart-mode
 	url = https://github.com/bradyt/dart-mode
@@ -286,9 +283,6 @@
 [submodule "insert-kaomoji"]
 	path = site-lisp/pkg/insert-kaomoji
 	url = https://github.com/emacsmirror/insert-kaomoji.git
-[submodule "ivy-rich"]
-	path = site-lisp/pkg/ivy-rich
-	url = https://github.com/Yevgnen/ivy-rich
 [submodule "kind-icon"]
 	path = site-lisp/pkg/kind-icon
 	url = https://github.com/jdtsmith/kind-icon
@@ -298,9 +292,6 @@
 [submodule "lazy-load"]
 	path = site-lisp/pkg/lazy-load
 	url = https://github.com/manateelazycat/lazy-load.git
-[submodule "ligature.el"]
-	path = site-lisp/pkg/ligature.el
-	url = https://github.com/mickeynp/ligature.el
 [submodule "llama"]
 	path = site-lisp/pkg/llama
 	url = https://github.com/emacsmirror/llama
@@ -310,18 +301,12 @@
 [submodule "lsp-bridge"]
 	path = site-lisp/pkg/lsp-bridge
 	url = https://github.com/manateelazycat/lsp-bridge
-[submodule "lsp-docker"]
-	path = site-lisp/pkg/lsp-docker
-	url = https://github.com/emacs-lsp/lsp-docker
 [submodule "lsp-mode"]
 	path = site-lisp/pkg/lsp-mode
 	url = https://github.com/emacs-lsp/lsp-mode
 [submodule "lsp-pyright"]
 	path = site-lisp/pkg/lsp-pyright
 	url = https://github.com/emacs-lsp/lsp-pyright
-[submodule "lsp-treemacs"]
-	path = site-lisp/pkg/lsp-treemacs
-	url = https://github.com/emacs-lsp/lsp-treemacs
 [submodule "lua-mode"]
 	path = site-lisp/pkg/lua-mode
 	url = https://github.com/immerrr/lua-mode
@@ -340,18 +325,9 @@
 [submodule "meow"]
 	path = site-lisp/pkg/meow
 	url = https://github.com/meow-edit/meow
-[submodule "mind-wave"]
-	path = site-lisp/pkg/mind-wave
-	url = https://github.com/manateelazycat/mind-wave
-[submodule "mini-frame"]
-	path = site-lisp/pkg/mini-frame
-	url = https://github.com/muffinmad/emacs-mini-frame
 [submodule "multi-vterm"]
 	path = site-lisp/pkg/multi-vterm
 	url = https://github.com/suonlight/multi-vterm
-[submodule "multiple-cursors"]
-	path = site-lisp/pkg/multiple-cursors
-	url = https://github.com/magnars/multiple-cursors.el
 [submodule "one-key"]
 	path = site-lisp/pkg/one-key
 	url = https://github.com/manateelazycat/one-key.git
@@ -385,9 +361,6 @@
 [submodule "posframe"]
 	path = site-lisp/pkg/posframe
 	url = https://github.com/tumashu/posframe
-[submodule "powershell"]
-	path = site-lisp/pkg/powershell
-	url = https://github.com/jschaf/powershell.el
 [submodule "protobuf-ts-mode"]
 	path = site-lisp/pkg/protobuf-ts-mode
 	url = https://git.ookami.one/cgit/protobuf-ts-mode
@@ -417,9 +390,6 @@
 	url = https://github.com/rust-lang/rust-mode
 [submodule "s"]
 	path = site-lisp/pkg/s
-	url = https://github.com/magnars/s.el
-[submodule "s.el"]
-	path = site-lisp/pkg/s.el
 	url = https://github.com/magnars/s.el
 [submodule "sesman"]
 	path = site-lisp/pkg/sesman
@@ -463,9 +433,6 @@
 [submodule "transient"]
 	path = site-lisp/pkg/transient
 	url = https://github.com/magit/transient
-[submodule "treemacs"]
-	path = site-lisp/pkg/treemacs
-	url = https://github.com/Alexander-Miller/treemacs
 [submodule "typescript.el"]
 	path = site-lisp/pkg/typescript.el
 	url = https://github.com/emacs-typescript/typescript.el
