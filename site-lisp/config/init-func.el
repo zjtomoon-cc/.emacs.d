@@ -53,4 +53,15 @@
       (call-interactively 'text-mode)
       (popwin:popup-buffer (current-buffer)))))
 
+(defun +evan/screen-lock ()
+  (interactive)
+  (toggle-frame-fullscreen)
+  (+evan/toggle-big-font)
+  (switch-to-buffer "*GNU Emacs*")
+  (delete-other-windows)
+  (hl-line-mode nil)
+  (run-with-timer 0.2 0 (lambda ()
+			  (shell-command "grim /tmp/lock.png ; swaylock -i /tmp/lock.png")
+			  (+evan/toggle-big-font))))
+
 (provide 'init-func)

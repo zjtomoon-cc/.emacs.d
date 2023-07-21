@@ -97,6 +97,9 @@
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
+[submodule "counsel-fd"]
+	path = site-lisp/pkg/counsel-fd
+	url = https://github.com/CsBigDataHub/counsel-fd
 [submodule "dap-mode"]
 	path = site-lisp/pkg/dap-mode
 	url = https://github.com/emacs-lsp/dap-mode
@@ -400,6 +403,9 @@
 [submodule "rainbow-mode"]
 	path = site-lisp/pkg/rainbow-mode
 	url = https://github.com/emacsmirror/rainbow-mode
+[submodule "reformatter"]
+	path = site-lisp/pkg/reformatter
+	url = https://github.com/purcell/emacs-reformatter
 [submodule "restclient.el"]
 	path = site-lisp/pkg/restclient.el
 	url = https://github.com/pashky/restclient.el.git
@@ -508,3 +514,6 @@
 [submodule "yasnippet-snippets"]
 	path = site-lisp/pkg/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets
+[submodule "zig-mode"]
+	path = site-lisp/pkg/zig-mode
+	url = https://github.com/ziglang/zig-mode

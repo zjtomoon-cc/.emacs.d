@@ -1,7 +1,7 @@
-;; (require 'init-hide-mode-line)
+(require 'init-hide-mode-line)
 ;; (require 'doom-modeline)
 ;; (doom-modeline-mode t)
-;; (require 'init-awesome-tray)
+(require 'init-awesome-tray)
 
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 (toggle-frame-fullscreen)

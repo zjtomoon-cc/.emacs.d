@@ -4,6 +4,6 @@
       (gts-translator
        :picker (gts-prompt-picker)
        :engines (list (gts-google-engine))
-       :render (gts-buffer-render)))
+       :render (gts-posframe-pop-render)))
 
 (provide 'init-go-translate)

@@ -1,7 +1,7 @@
 ;;;###autoload
 (defun +evan/set-cn-fonts ()
   (interactive)
-  (dolist (charset '(kana han symbol cjk-misc bopomofo chinese-gbk))
+  (dolist (charset '(kana symbol cjk-misc bopomofo chinese-gbk))
     (set-fontset-font
      "fontset-default"
      charset
@@ -26,6 +26,7 @@
        'default nil
        :font (font-spec :family +evan/en-font
                         :weight 'medium
+			:width 'wide
                         :size +evan/font-size))
       ;; 设置fixed-pitch-serif face字体
       (set-face-attribute
@@ -47,11 +48,10 @@
 
       (+evan/set-cn-fonts))))
 
-(setq +evan/en-font "SourceCodeVF"
-      +evan/cn-font "等距更纱黑体 SC"
-      +evan/font-size 14.5
-      +evan/cn-font-size 13.5)
-
+(setq +evan/en-font "Iosevka"
+      +evan/cn-font "Iosevka"
+      +evan/font-size 14.0
+      +evan/cn-font-size 14.0)
 
 
 (provide 'init-font)

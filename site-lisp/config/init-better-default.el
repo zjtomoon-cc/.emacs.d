@@ -1,4 +1,5 @@
 (setq initial-buffer-choice nil)
+(add-hook 'emacs-startup-hook (lambda () (run-with-timer 0 0 (lambda () (call-interactively 'writeroom-mode)))))
 (setq user-full-name "Evan Meek")       ;设置用户名
 (setq user-mail-address
       "the_lty_mail@foxmail.com") 	;设置邮箱

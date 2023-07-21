@@ -62,5 +62,4 @@
 
 (add-hook 'orderless-style-dispatchers #'+evan/orderless-dispatch-flex-first nil 'local)
 
-
 (provide 'init-lsp)
