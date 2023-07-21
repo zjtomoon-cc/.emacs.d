@@ -97,9 +97,6 @@
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
-[submodule "counsel-fd"]
-	path = site-lisp/pkg/counsel-fd
-	url = https://github.com/CsBigDataHub/counsel-fd
 [submodule "dap-mode"]
 	path = site-lisp/pkg/dap-mode
 	url = https://github.com/emacs-lsp/dap-mode
