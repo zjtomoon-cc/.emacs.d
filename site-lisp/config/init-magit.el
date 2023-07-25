@@ -9,7 +9,7 @@
 (define-key magit-mode-map (kbd "C-S-k") #'magit-discard)
 
 (magit-add-section-hook 'magit-status-sections-hook
-			'magit-insert-modules
+			;; 'magit-insert-modules
 			'magit-insert-stashes
 			'append)
 

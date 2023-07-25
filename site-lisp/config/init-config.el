@@ -14,7 +14,20 @@
 (require 'init-xref)
 (require 'init-auto-save)
 (require 'init-face)
+(require 'init-translate)
 
+
+
+
+(when (display-graphic-p)
+  (require 'init-font)
+  (+evan/set-fonts)
+  (setq +evan-theme (if (and (>= (string-to-number (format-time-string "%H")) 6)
+			       (>= (string-to-number (format-time-string "%H")) 18))
+			  'doom-one
+		      'doom-one-light))
+  (load-theme +evan-theme t nil)
+  (enable-theme +evan-theme))
 
 (add-hook 'window-setup-hook
 	  (lambda ()
@@ -23,11 +36,10 @@
 	    (require 'init-corfu)
 	    (require 'init-minibuffer-completion)
 	    (require 'init-meow)
-	    (require 'init-elfeed)
-	    ))
+	    (require 'init-elfeed)))
 
-(+evan/set-fonts)
-(enable-theme +evan-theme)
+
+
 ;; (require 'init-session)
 ;; (+evan/read-dekstop)
 

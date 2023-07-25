@@ -1,6 +1,6 @@
 (with-eval-after-load 'flycheck
   ;; variable
-  (setq flycheck-checker-error-threshold 50)
+  (setq flycheck-checker-error-threshold 200)
   (setq flycheck-idle-change-delay 0.2)
   ;; face
   (set-face-underline 'flycheck-error nil)

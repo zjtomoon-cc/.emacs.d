@@ -1,12 +1,11 @@
-(require 'init-hide-mode-line)
+;; (require 'init-hide-mode-line)
 ;; (require 'doom-modeline)
 ;; (doom-modeline-mode t)
-(require 'init-awesome-tray)
+;; (require 'init-awesome-tray)
 
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 (toggle-frame-fullscreen)
-;; (+evan/toggle-transparent)
-;; (+evan/toggle-transparent)
+;; (+evan/toggle-transpar
 
 (defun +evan/toggle-big-font ()
   "切换大字体模式"

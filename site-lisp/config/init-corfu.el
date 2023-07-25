@@ -14,10 +14,12 @@
 
 
 ;; autoload
-(setq corfu-enable-mode-hooks '(eglot-managed-mode-hook text-mode-hook conf-mode-hook prog-mode-hook))
+;; (setq corfu-enable-mode-hooks '(eglot-managed-mode-hook text-mode-hook conf-mode-hook prog-mode-hook))
 
-(dolist (hook corfu-enable-mode-hooks)
-  (add-hook hook 'corfu-mode))
+;; (dolist (hook corfu-enable-mode-hooks)
+;;   (add-hook hook 'corfu-mode))
+
+(global-corfu-mode t)
 
 (autoload 'corfu-mode "corfu" nil nil)
 (autoload 'corfu-history-mode "corfu-history" nil nil)
@@ -31,13 +33,12 @@
 ;; corfu extensions
 (with-eval-after-load 'corfu (progn
 			       (unless (display-graphic-p)
-				 (corfu-terminal-mode +1)
-				 (corfu-doc-terminal-mode +1))
+				 (corfu-terminal-mode +1))
 			       (require 'init-tempel)
 			       (require 'init-orderless)
 			       (require 'corfu-info)
 			       (require 'cape)
-			       (require 'corfu-doc)
+			       (require 'corfu-popupinfo)
 			       (require 'kind-icon)
 			       (lazy-load-set-keys '(("C-d" . corfu-doc-toggle)
 						     ("C-S-p" . corfu-doc-scroll-down)

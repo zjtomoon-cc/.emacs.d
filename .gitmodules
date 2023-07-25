@@ -61,9 +61,6 @@
 [submodule "closql"]
 	path = site-lisp/pkg/closql
 	url = https://github.com/emacscollective/closql
-[submodule "codeium"]
-	path = site-lisp/pkg/codeium
-	url = git@github.com:Exafunction/codeium.el.git
 [submodule "color-theme-sanityinc-tomorrow"]
 	path = site-lisp/pkg/color-theme-sanityinc-tomorrow
 	url = https://github.com/purcell/color-theme-sanityinc-tomorrow
@@ -91,9 +88,6 @@
 [submodule "corfu-doc"]
 	path = site-lisp/pkg/corfu-doc
 	url = https://github.com/galeo/corfu-doc
-[submodule "corfu-doc-terminal"]
-	path = site-lisp/pkg/corfu-doc-terminal
-	url = https://codeberg.org/akib/emacs-corfu-doc-terminal
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
@@ -127,9 +121,6 @@
 [submodule "docstr"]
 	path = site-lisp/pkg/docstr
 	url = https://github.com/emacs-vs/docstr
-[submodule "doom-modeline"]
-	path = site-lisp/pkg/doom-modeline
-	url = https://github.com/seagle0128/doom-modeline
 [submodule "doom-themes"]
 	path = site-lisp/pkg/doom-themes
 	url = https://github.com/doomemacs/themes.git
@@ -277,12 +268,18 @@
 [submodule "hydra"]
 	path = site-lisp/pkg/hydra
 	url = https://github.com/abo-abo/hydra
+[submodule "immersive-translate"]
+	path = site-lisp/pkg/immersive-translate
+	url = https://github.com/Elilif/emacs-immersive-translate
 [submodule "info+"]
 	path = site-lisp/pkg/info+
 	url = https://github.com/emacsmirror/info-plus.git
 [submodule "insert-kaomoji"]
 	path = site-lisp/pkg/insert-kaomoji
 	url = https://github.com/emacsmirror/insert-kaomoji.git
+[submodule "keyfreq"]
+	path = site-lisp/pkg/keyfreq
+	url = https://github.com/dacap/keyfreq
 [submodule "kind-icon"]
 	path = site-lisp/pkg/kind-icon
 	url = https://github.com/jdtsmith/kind-icon
@@ -433,6 +430,9 @@
 [submodule "transient"]
 	path = site-lisp/pkg/transient
 	url = https://github.com/magit/transient
+[submodule "tui"]
+	path = site-lisp/pkg/tui
+	url = https://github.com/ebpa/tui.el
 [submodule "typescript.el"]
 	path = site-lisp/pkg/typescript.el
 	url = https://github.com/emacs-typescript/typescript.el

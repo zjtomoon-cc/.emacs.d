@@ -17,12 +17,4 @@
   (require 'init-better-default)
   (require 'lazy-load)
   (require 'one-key)
-  (require 'init-themes)
-  ;; (+evan/scratch-setup)
-  (setq +evan-theme (if (and (>= (string-to-number (format-time-string "%H")) 6)
-			     (>= (string-to-number (format-time-string "%H")) 18))
-			'modus-vivendi
-		      'modus-operandi))
-  (load-theme +evan-theme t nil)
-  (require 'init-font)
-  )
+  (require 'init-themes))

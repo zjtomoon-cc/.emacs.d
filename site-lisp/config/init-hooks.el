@@ -12,6 +12,8 @@
 
 
 (add-hook 'prog-mode-hook
-	  #'(lambda () (save-place-mode t)))
+	  #'(lambda ()
+	      (save-place-mode t)
+	      (yas-minor-mode t)))
 
 (provide 'init-hooks)

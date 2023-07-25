@@ -22,9 +22,28 @@
 ;; 	    (lsp-deferred)))
 
 
+;; js/ts inlayHint
+
+;; (setq lsp-javascript-display-variable-type-hints t
+;;       lsp-javascript-display-property-declaration-type-hints t
+;;       lsp-javascript-display-parameter-name-hints-when-argument-matches-name t
+;;       lsp-javascript-display-parameter-name-hints t
+;;       lsp-javascript-display-parameter-type-hints t
+;;       lsp-javascript-display-return-type-hints t
+;;       lsp-javascript-display-enum-member-value-hints t
+;;       lsp-javascript-display-variable-type-hints t
+;;       lsp-javascript-display-property-declaration-type-hints t
+;;       lsp-javascript-display-parameter-name-hints-when-argument-matches-name t
+;;       lsp-javascript-display-parameter-name-hints t
+;;       lsp-javascript-display-parameter-type-hints t
+;;       lsp-javascript-display-return-type-hints t
+;;       lsp-javascript-display-enum-member-value-hints  t
+;;       )
+
+
+
 (setq lsp-keymap-prefix ""
       lsp-headerline-breadcrumb-segments '(symbols))
-
 ;; feature enable
 (setq lsp-enable-links nil
       lsp-enable-indentation nil
@@ -54,7 +73,7 @@
 
 (add-hook 'lsp-managed-mode-hook
 	  (lambda ()
-	    (yas-minor-mode)
+	    ;; (yas-minor-mode)
 	    (flycheck-mode)))
 
 (add-hook 'lsp-completion-mode-hook

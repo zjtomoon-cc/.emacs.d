@@ -1,4 +1,8 @@
 (global-set-key (kbd "C-x C-r") #'restart-emacs)
+(global-set-key (kbd "C-h C-f") #'describe-function)
+(global-set-key (kbd "C-M-x") #'eval-defun)
+;; (global-set-key (kbd "C-h") #'backward-kill-word)
+
 (lazy-one-key-create-menu "Toggle"
 			  (:key "F" :description "Toggle bit font" :command +evan/toggle-big-font :filename "init-ui")
 			  (:key "w" :description "Toggle write room" :command writeroom-mode :filename "init-writeroom")
@@ -218,4 +222,5 @@
     
 ;;     (define-key boon-command-map "\\" evan-leader-keymap)
 ;;     (keymap-set ctl-x-map (kbd "f") 'find-file)))
+
 (provide 'init-key)

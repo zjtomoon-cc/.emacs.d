@@ -50,8 +50,8 @@
 
 (setq +evan/en-font "Iosevka"
       +evan/cn-font "Iosevka"
-      +evan/font-size 14.0
-      +evan/cn-font-size 14.0)
+      +evan/font-size 15.0
+      +evan/cn-font-size 15.0)
 
 
 (provide 'init-font)
