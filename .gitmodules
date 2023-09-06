@@ -70,6 +70,9 @@
 [submodule "consult"]
 	path = site-lisp/pkg/consult
 	url = https://github.com/minad/consult
+[submodule "consult-ag"]
+	path = site-lisp/pkg/consult-ag
+	url = https://github.com/yadex205/consult-ag
 [submodule "consult-dir"]
 	path = site-lisp/pkg/consult-dir
 	url = https://github.com/karthink/consult-dir
@@ -124,6 +127,9 @@
 [submodule "doom-themes"]
 	path = site-lisp/pkg/doom-themes
 	url = https://github.com/doomemacs/themes.git
+[submodule "eat"]
+	path = site-lisp/pkg/eat
+	url = https://codeberg.org/akib/emacs-eat
 [submodule "ef-themes"]
 	path = site-lisp/pkg/ef-themes
 	url = https://github.com/emacsmirror/ef-themes.git
@@ -145,9 +151,6 @@
 [submodule "elispfl"]
 	path = site-lisp/pkg/elispfl
 	url = git@github.com:cireu/elispfl
-[submodule "emacs-application-framework"]
-	path = site-lisp/pkg/emacs-application-framework
-	url = https://github.com/emacs-eaf/emacs-application-framework
 [submodule "emacs-fish"]
 	path = site-lisp/pkg/emacs-fish
 	url = https://github.com/wwwjfy/emacs-fish
@@ -211,12 +214,12 @@
 [submodule "f.el"]
 	path = site-lisp/pkg/f.el
 	url = https://github.com/rejeep/f.el
+[submodule "fanyi"]
+	path = site-lisp/pkg/fanyi
+	url = https://github.com/condy0919/fanyi.el
 [submodule "fish-mode"]
 	path = site-lisp/pkg/fish-mode
 	url = https://github.com/emacsmirror/fish-mode
-[submodule "fleetish-theme"]
-	path = site-lisp/pkg/fleetish-theme
-	url = https://github.com/nylar/fleetish-emacs-theme
 [submodule "flycheck"]
 	path = site-lisp/pkg/flycheck
 	url = https://github.com/flycheck/flycheck
@@ -256,9 +259,15 @@
 [submodule "hextorgb"]
 	path = site-lisp/pkg/hextorgb
 	url = https://github.com/syohex/emacs-hex-to-rgba
+[submodule "highlight-indent-guides"]
+	path = site-lisp/pkg/highlight-indent-guides
+	url = https://github.com/DarthFennec/highlight-indent-guides
 [submodule "hl-todo"]
 	path = site-lisp/pkg/hl-todo
 	url = https://github.com/tarsius/hl-todo
+[submodule "holy-layer"]
+	path = site-lisp/pkg/holy-layer
+	url = https://github.com/manateelazycat/holo-layer
 [submodule "ht"]
 	path = site-lisp/pkg/ht
 	url = https://github.com/Wilfred/ht.el
@@ -310,6 +319,9 @@
 [submodule "magit"]
 	path = site-lisp/pkg/magit
 	url = https://github.com/magit/magit
+[submodule "maple-minibuffer"]
+	path = site-lisp/pkg/maple-minibuffer
+	url = https://github.com/honmaple/emacs-maple-minibuffer
 [submodule "marginalia"]
 	path = site-lisp/pkg/marginalia
 	url = https://github.com/minad/marginalia.git
@@ -322,15 +334,15 @@
 [submodule "meow"]
 	path = site-lisp/pkg/meow
 	url = https://github.com/meow-edit/meow
-[submodule "multi-vterm"]
-	path = site-lisp/pkg/multi-vterm
-	url = https://github.com/suonlight/multi-vterm
 [submodule "one-key"]
 	path = site-lisp/pkg/one-key
 	url = https://github.com/manateelazycat/one-key.git
 [submodule "orderless"]
 	path = site-lisp/pkg/orderless
 	url = https://github.com/oantolin/orderless
+[submodule "org"]
+	path = site-lisp/pkg/org
+	url = https://github.com/emacsmirror/org.git
 [submodule "org-modern"]
 	path = site-lisp/pkg/org-modern
 	url = https://github.com/minad/org-modern
@@ -397,6 +409,9 @@
 [submodule "shrink-path"]
 	path = site-lisp/pkg/shrink-path
 	url = https://gitlab.com/bennya/shrink-path.el
+[submodule "spacemacs-theme"]
+	path = site-lisp/pkg/spacemacs-theme
+	url = https://github.com/nashamri/spacemacs-theme
 [submodule "spinner"]
 	path = site-lisp/pkg/spinner
 	url = https://github.com/Malabarba/spinner.el
@@ -409,9 +424,6 @@
 [submodule "swiper"]
 	path = site-lisp/pkg/swiper
 	url = https://github.com/abo-abo/swiper
-[submodule "tao-theme"]
-	path = site-lisp/pkg/tao-theme
-	url = https://github.com/11111000000/tao-theme-emacs
 [submodule "telega.el"]
 	path = site-lisp/pkg/telega.el
 	url = https://github.com/zevlg/telega.el
@@ -433,6 +445,9 @@
 [submodule "tui"]
 	path = site-lisp/pkg/tui
 	url = https://github.com/ebpa/tui.el
+[submodule "typescript-mode"]
+	path = site-lisp/pkg/typescript-mode
+	url = https://github.com/emacs-typescript/typescript.el
 [submodule "typescript.el"]
 	path = site-lisp/pkg/typescript.el
 	url = https://github.com/emacs-typescript/typescript.el

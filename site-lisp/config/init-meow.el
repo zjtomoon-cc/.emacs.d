@@ -5,12 +5,6 @@
 (setq meow-keypad-start-keys '((?c . ?c)
 			       (?h . ?h) (?x . ?x)))
 
-;; (add-to-list meow-char-thing-table
-;; 	     (cons ?u url))
-
-;; (meow-thing-register 'url 'url 'url)
-
-
 (defun lazy-meow-leader-define-key (&rest keybinds)
   (let* ((meow-leader-keybinds))
     (dolist (ele  keybinds)

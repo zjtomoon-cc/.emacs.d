@@ -8,9 +8,7 @@
    (("p" . "Switch project") . project-switch-project)
    (("r" . "Remove known project") . project-forget-project)
    (("b" . "Project buffer") . consult-project-buffer)
-   (("e" . "Project eshell") . project-eshell)
-   (("t" . "Project vterm") . multi-vterm-project)
-   ))
+   (("e" . "Project eat") . eat-project)))
 
 (define-key project-prefix-map (kbd "b") #'+evan/project-blink-search)
 (define-key project-prefix-map (kbd "m") #'+evan/project-magit)
@@ -18,7 +16,7 @@
 (define-key project-prefix-map (kbd "f") #'project-find-file)
 (define-key project-prefix-map (kbd "F") #'project-find-dir)
 (define-key project-prefix-map (kbd "g") #'+evan/project-rg)
-(define-key project-prefix-map (kbd "t") #'multi-vterm-project)
+(define-key project-prefix-map (kbd "e") #'eat-project)
 
 (setq project-switch-commands nil)
 (add-to-list 'project-switch-commands '(+evan/project-blink-search "BlinkSearch") t)
@@ -27,7 +25,7 @@
 (add-to-list 'project-switch-commands '(project-find-file "Find file") t)
 (add-to-list 'project-switch-commands '(project-find-dir "Find dir") t)
 (add-to-list 'project-switch-commands '(+evan/project-rg "Ripgrep") t)
-(add-to-list 'project-switch-commands '(multi-vterm-project "Vterm") t)
+(add-to-list 'project-switch-commands '(eat-project "Eat") t)
 
 
 

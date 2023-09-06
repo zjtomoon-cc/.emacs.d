@@ -1,12 +1,7 @@
 (require 'orderless)
 
-(setq completion-styles '(orderless flex basic)
-      completion-category-overrides
-      `((file (
-	       ;; styles
-	       basic
-	       ;; partial-completion
-	       ))
-	(eglot (styles ,@completion-styles))))
+(setq completion-styles '(orderless basic)
+      completion-category-defaults nil
+      completion-category-overrides '((file (styles . (partial-completion)))))
 
 (provide 'init-orderless)

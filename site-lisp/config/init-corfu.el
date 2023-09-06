@@ -1,7 +1,9 @@
 ;; variables
 (setq corfu-cycle t
       corfu-auto t
-      corfu-quit-at-boundary t
+      ;; 键入空格也不要退出
+      corfu-quit-at-boundary nil
+      ;; 没有匹配项退出
       corfu-quit-no-match t
       corfu-preview-current t
       corfu-auto-prefix 1
@@ -9,7 +11,6 @@
       completion-ignore-case t
       read-file-name-completion-ignore-case t
       read-buffer-completion-ignore-case t
-      corfu-doc-auto nil
      )
 
 
@@ -48,7 +49,10 @@
 						     ("C-n" . corfu-next)
 						     ("C-p" . corfu-previous)
 						     ([backtab] . corfu-previous)
-						     )
+						     ("M-<backspace>". (lambda ()
+									 (interactive)
+									 (corfu-quit)
+									 (call-interactively 'backward-kill-word))))
 						   corfu-map)
 
 			       (add-hook 'meow-insert-exit-hook #'(lambda ()
@@ -75,7 +79,7 @@
 						 (setq-local completion-at-point-functions
 							     (list (cape-super-capf
 								    #'cape-file
-								    #'cape-yasnippet
+								    ;; #'cape-yasnippet
 								    #'cape-history
 								    #'cape-keyword
 								    #'cape-symbol))))))))

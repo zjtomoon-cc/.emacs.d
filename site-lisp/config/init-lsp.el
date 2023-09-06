@@ -53,6 +53,8 @@
       lsp-inlay-hint-enable nil
       lsp-log-io nil
       lsp-lens-enable nil)
+
+(setq lsp-disabled-clients '(lsp-emmet))
 ;; lsp fancy features
 (setq
  ;; ui
@@ -74,7 +76,8 @@
 (add-hook 'lsp-managed-mode-hook
 	  (lambda ()
 	    ;; (yas-minor-mode)
-	    (flycheck-mode)))
+	    (flycheck-mode)
+	    (eldoc-box-hover-at-point-mode)))
 
 (add-hook 'lsp-completion-mode-hook
 	  #'+evan/lsp-mode-setup-completion)

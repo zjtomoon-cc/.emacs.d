@@ -5,6 +5,7 @@
 ;; 增加IO性能
 (setq read-process-output-max (* 1024 1024 10))
 (setq gc-cons-threshold most-positive-fixnum)
+(setq +evan-theme nil)
 (find-function-setup-keys)
 
 (let ((default-directory "~/.emacs.d/site-lisp")
@@ -17,4 +18,14 @@
   (require 'init-better-default)
   (require 'lazy-load)
   (require 'one-key)
-  (require 'init-themes))
+  (require 'init-themes)
+  (require 'init-font)
+  (require 'init-face)
+  
+  (setq +evan-theme (if (and (>= (string-to-number (format-time-string "%H")) 6)
+			     (>= (string-to-number (format-time-string "%H")) 18))
+			'spacemacs-light
+		      'spacemacs-dark))
+  (load-theme +evan-theme t nil))
+
+

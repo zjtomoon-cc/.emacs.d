@@ -6,7 +6,7 @@
 (setq magit-log-margin-show-committer-date t)
 (setq magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1)
 
-(define-key magit-mode-map (kbd "C-S-k") #'magit-discard)
+(define-key magit-mode-map (kbd "C-M-k") #'magit-discard)
 
 (magit-add-section-hook 'magit-status-sections-hook
 			;; 'magit-insert-modules
@@ -23,5 +23,12 @@
   (interactive)
   (let ((result (string-trim (shell-command-to-string "git describe --match 'v[0-9]*' --dirty='.m' --always --tags --abbrev=8"))))
     (kill-new result)))
+
+(eval-after-load 'git-link
+  (lambda ()
+    (add-to-list 'git-link-remote-alist '("gitee\\.com" git-link-github))))
+
+;; git link for gitee support
+
 
 (provide 'init-magit)

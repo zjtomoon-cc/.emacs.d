@@ -6,7 +6,6 @@
 (setq use-dialog-box nil)               ;never pop dialog
 (setq ring-bell-function 'ignore)       ;关闭烦人的出错时的提示声
 (setq mouse-yank-at-point t)            ;粘贴于光标处,而不是鼠标指针处
-(setq x-select-enable-clipboard t)    ;阻止退出emacs时和外部clipmgr交互导致卡顿 x11
 (setq select-enable-clipboard t)        ; wayland 复制粘贴共享
 (setq split-width-threshold 180)        ;分屏的时候使用上下分屏
 (setq inhibit-compacting-font-caches t) ;使用字体缓存，避免卡顿
@@ -24,11 +23,11 @@
 (setq yes-or-no-prompt "(y or n)")
 (keyfreq-mode t)
 (keyfreq-autosave-mode t)
-(pixel-scroll-mode t)
-(pixel-scroll-precision-mode t)
-;; (global-hl-line-mode t)
+(global-hl-line-mode t)
 (setq scroll-step 0
-      scroll-conservatively 1)
+      scroll-conservatively 100
+      scroll-preserve-screen-position t
+      scroll-margin 5)
 
 ;; 关闭自动备份文件
 (setq make-backup-files nil)
@@ -43,8 +42,8 @@
 (setq lexical-binding t)
 ;; 环境变量
 (add-to-list 'exec-path "~/.npm-global/bin")
-(setq-default recentf-max-saved-items 1000)
 
+(setq-default recentf-max-saved-items 1000)
 (recentf-mode t)
 
 ;; 自定义 *scratch* 内容

@@ -1,10 +1,10 @@
 (require 'eaf)
 ;; (require 'eaf-video-player)
-(require 'eaf-image-viewer)
+;; (require 'eaf-image-viewer)
 ;; (require 'eaf-file-browser)
 (require 'eaf-browser)
 (require 'eaf-pdf-viewer)
-(require 'eaf-mindmap)
+;; (require 'eaf-mindmap)
 ;; (require 'eaf-git)
 ;; (require 'eaf-file-sender)
 ;; (require 'eaf-terminal)
@@ -18,8 +18,8 @@
 
 (setq
  eaf-proxy-type "socks5"
- eaf-proxy-host "127.0.0.1"
- eaf-proxy-port "1080"
+ eaf-proxy-host "192.168.1.128"
+ eaf-proxy-port "1090"
  eaf-browser-dark-mode nil)
 
 (eaf-bind-key meow-keypad "SPC" eaf-browser-keybinding)

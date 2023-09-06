@@ -3,26 +3,24 @@
 ;;   (add-hook hook 'eglot-ensure))
 
 (setq tab-always-indent 'complete)
-(setq eglot-events-buffer-size nil)
+(setq eglot-events-buffer-size most-positive-fixnum)
 (setq eglot-autoreconnect nil)
 (setq eglot-ignored-server-capabilities '(:inlayHintProvider))
 (setq eglot-inlay-hints-mode nil)
 
-(setq eglot-enable-modes '(go-ts-mode-hook rust-ts-mode-hook rust-mode-hook bash-ts-mode-hook sh-mode-hook clojure-mode-hook python-ts-mode-hook python-mode-hook web-mode-hook))
 
-(dolist (hook eglot-enable-modes)
- (add-hook hook #'eglot-ensure))
+(dolist (hook (list 'web-mode-hook 'typescript-mode-hook 'typescript-ts-mode-hook 'typescript-tsx-mode-hook 'go-ts-mode-hook 'dart-mode-hook))
+  (add-hook hook 'eglot-ensure))
 
 ;; hooks
 (add-hook 'eglot-managed-mode-hook (lambda ()
-				     ;; (yas-minor-mode t)
+				     (yas-minor-mode t)
 				     ;; eldoc-box
 				     (eldoc-box-hover-at-point-mode t)
 				     ;; capf
 				     (setq-local completion-at-point-functions
 						 (list (cape-super-capf
-							#'eglot-completion-at-point
-							#'tempel-complete)))))
+							#'eglot-completion-at-point)))))
 
 
 (with-eval-after-load 'eglot (progn
@@ -46,14 +44,14 @@
 		)))
 
 (add-to-list 'eglot-server-programs
-	     '((go-ts-mode)
+	     '((go-ts-mode go-mode)
 	       .
 	       ("gopls" "-remote=auto")))
 
 (add-to-list 'eglot-server-programs
 	     '((rust-ts-mode rust-mode)
 	       .
-	       ("rust-analyzer"
+	       ("ust-analyzer"
 		:initializationOptions
 		(:cargo
 		 (:features "all"
@@ -106,7 +104,6 @@
                   :workspaceSymbol nil
                   :completion t)
 		 ))))
-
 
 ;; (add-hook 'web-mode-hook (lambda ()
 ;; 			   (setq-local eglot-workspace-configuration

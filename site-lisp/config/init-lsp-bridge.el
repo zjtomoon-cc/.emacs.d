@@ -10,7 +10,7 @@
       acm-enable-search-file-words nil
       acm-enable-telega nil
       acm-enable-tabnine nil
-      acm-enable-codeium t
+      acm-enable-codeium nil
       lsp-bridge-enable-signature-help nil
       lsp-bridge-enable-hover-diagnostic t
       lsp-bridge-enable-diagnostics t

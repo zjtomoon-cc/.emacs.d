@@ -57,7 +57,7 @@
   (interactive)
   (toggle-frame-fullscreen)
   (+evan/toggle-big-font)
-  (switch-to-buffer "*GNU Emacs*")
+  (switch-to-buffer "*scratch*")
   (delete-other-windows)
   (hl-line-mode nil)
   (run-with-timer 0.2 0 (lambda ()

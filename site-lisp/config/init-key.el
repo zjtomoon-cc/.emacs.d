@@ -11,7 +11,7 @@
 			  (:key "t" :description "Toggle telega" :command +evan/toggle-telega :filename "init-telega")
 			  (:key "c" :description "Toggle crow" :command crow-mode :filename "init-crow")
 			  (:key "s" :description "Toggle eshell" :command eshell :filename "eshell")
-			  (:key "v" :description "Toggle vterm" :command multi-vterm :filename "init-vterm")
+			  (:key "v" :description "Toggle vterm" :command vterm :filename "init-vterm")
 			  (:key "T" :description "Toggle transparent" :command +evan/toggle-transparent :filename "init-emacs")
 			  (:key "f" :description "Toggle dirvish side" :command +evan/dirvish-side-current-path :filename "init-dirvish"))
 
@@ -70,7 +70,7 @@
 			  (:key "s" :description "Save buffer" :command save-buffer :filename "")
 			  (:key "d" :description "Drivish" :command dirvish :filename "init-dirvish")
 			  (:key "p" :description "Find emacs config" :command +evan/find-emacs-config :filename "init-emacs")
-			  (:key "r" :description "Find recent file" :command recentf :filename "init-minibuffer-completion")
+			  (:key "r" :description "Find recent file" :command consult-recent-file :filename "init-minibuffer-completion")
 			  (:key "f" :description "Find file" :command find-file :filename "init-minibuffer-completion")
 			  (:key "F" :description "Find file with fuzzy" :command consult-fzf :filename "init-minibuffer-completion"))
 
@@ -83,7 +83,7 @@
 			  (:key "d" :description "Blink Search" :command blink-search :filename "init-blink-search")
 			  (:key "r" :description "Colorg" :command color-rg-search-input :filename "init-color-rg")
 			  (:key "y" :description "Kill ring history" :command consult-yank-pop :filename "init-minibuffer-completion")
-			  (:key "e" :description "Fanyi" :command fanyi-dwim :filename "init-fanyi")
+			  (:key "e" :description "Fanyi" :command fanyi-dwim2 :filename "init-fanyi")
 			  (:key "B" :description "Bookmark" :command consult-bookmark :filename "init-minibuffer-completion")
 			  (:key "l" :description "Find libray" :command find-library :filename "init-minibuffer-completion"))
 
@@ -119,7 +119,7 @@
 			  (:key "p" :description "Yank buffer filename" :command +evan/yank-buffer-file-name :filename "")
 			  (:key "S" :description "Sudo edit" :command sudo-edit :filename "init-sudo-edit")
 			  (:key "i" :description "Counsel tips" :command one-key-menu-counsel :filename "init-ivy")
-			  (:key "r" :description "Elfeed" :command elfeed :filename "init-elfeed")
+			  (:key "r" :description "Elfeed" :command elfeed :filename "elfeed")
 			  (:key "1" :description "Profiler start" :command profiler-start :filename "profiler")
 			  (:key "d" :description "App launcher" :command app-launcher-run-app :filename "app-launcher")
 			  (:key "g" :description "Go translate" :command gts-do-translate :filename "init-go-translate")
