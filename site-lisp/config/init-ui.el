@@ -3,8 +3,11 @@
 ;; (doom-modeline-mode t)
 ;; (require 'init-awesome-tray)
 
+(when (display-graphic-p)
+  (enable-theme +evan-theme)
+  (+evan/set-fonts))
+
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
-(toggle-frame-fullscreen)
 
 (defun +evan/toggle-big-font ()
   "切换大字体模式"
@@ -17,27 +20,22 @@
   (+evan/set-fonts)
   (+evan/set-cn-fonts))
 
+(add-hook 'server-after-make-frame-hook
+	  (lambda ()
+	    (enable-theme +evan-theme)
+	    (+evan/set-fonts)
+	    (toggle-frame-fullscreen)))
 
-(setq pixel-scroll-precision-interpolate-page t
-      pixel-scroll-precision-interpolation-between-scroll 0)
-
-(pixel-scroll-mode t)
-(pixel-scroll-precision-mode 1)
-
-;; (defun +pixel-scroll-interpolate-down (&optional lines)
-;;   (interactive)
-;;   (if lines
-;;       (pixel-scroll-precision-interpolate (* -1 lines (pixel-line-height)))
-;;     (pixel-scroll-interpolate-down)))
-
-;; (defun +pixel-scroll-interpolate-up (&optional lines)
-;;   (interactive)
-;;   (if lines
-;;       (pixel-scroll-precision-interpolate (* lines (pixel-line-height))))
-;;   (pixel-scroll-interpolate-up))
-
+(add-hook 'window-setup-hook
+	  (lambda ()
+	    (setq pixel-scroll-precision-interpolate-page t
+		  pixel-scroll-precision-interpolation-between-scroll 0)
+	    (pixel-scroll-mode t)
+	    (pixel-scroll-precision-mode 1)))
 
 (defalias 'scroll-up-command 'pixel-scroll-interpolate-down)
 (defalias 'scroll-down-command 'pixel-scroll-interpolate-up)
+
+
 
 (provide 'init-ui)

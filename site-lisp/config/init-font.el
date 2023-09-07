@@ -21,6 +21,7 @@
                  when (member font (font-family-list))
                  return (set-fontset-font t script (font-spec
 						    :family font) nil 'prepend)))
+      
       ;; 设置default face字体
       (set-face-attribute
        'default nil
@@ -32,19 +33,19 @@
       (set-face-attribute
        'fixed-pitch-serif nil
        :font (font-spec :family +evan/en-font
-                        :weight 'normal
-                        :slant 'italic
-                        :size +evan/font-size))
+			:weight 'normal
+			:slant 'italic
+			:size +evan/font-size))
       (set-face-attribute
        'fixed-pitch nil
        :font (font-spec :family +evan/en-font
-                        :weight 'normal
-                        :size +evan/font-size))
+			:weight 'normal
+			:size +evan/font-size))
       (set-face-attribute
        'variable-pitch nil
        :font (font-spec :family +evan/en-font
-                        :weight 'normal
-                        :size +evan/font-size))
+			:weight 'normal
+			:size +evan/font-size))
 
       (+evan/set-cn-fonts))))
 
@@ -52,7 +53,5 @@
       +evan/cn-font "Iosevka"
       +evan/font-size 15.0
       +evan/cn-font-size 15.0)
-
-
 
 (provide 'init-font)

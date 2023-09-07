@@ -1,9 +1,11 @@
-(setq borg-rewrite-urls-alist
-      '(("git@github.com:" . "https://github.com/")))
 (setq package-enable-at-startup nil)
 
 (require 'borg)
+(setq borg-rewrite-urls-alist
+      '(("git@github.com:" . "https://github.com/")))
+
 (setq borg-user-emacs-directory user-emacs-directory)
+
 (borg-initialize)
 
 ;; epkg

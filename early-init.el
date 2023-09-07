@@ -10,7 +10,7 @@
 
 (let ((default-directory "~/.emacs.d/site-lisp")
       (file-name-handler-alist nil))
-  ;; (add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/pkg/benchmark-init"))
+  (add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/pkg/benchmark-init"))
   ;; (require 'benchmark-init)
   ;; (benchmark-init/activate)
   (normal-top-level-add-subdirs-to-load-path)
