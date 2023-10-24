@@ -5,7 +5,7 @@
   ;; face
   (set-face-underline 'flycheck-error nil)
   (set-face-foreground 'flycheck-error "#99324B")
-  (set-face-attribute 'flycheck-error nil :weight 'bold :inverse-video nil))
+  (set-face-attribute 'flycheck-error nil :weight 'normal :inverse-video nil))
 
 
 (provide 'init-flycheck)

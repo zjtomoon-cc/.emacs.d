@@ -15,16 +15,18 @@
 (require 'init-translate)
 (require 'init-flycheck)
 (require 'init-lsp)
+;; (require 'init-eglot)
+;; (require 'init-lsp-bridge)
 (require 'init-elfeed)
 
 ;; 启动1s后再开启gc管理
-(run-with-idle-timer 0.2 0 (lambda ()
+(run-with-idle-timer 0.1 0 (lambda ()
 			   (require 'init-meow)
 			   (require 'init-corfu)
 			   (require 'init-minibuffer-completion)
 			   (goggles-mode t)
 			   (require 'init-gcmh)))
 
-;; (benchmark-init/deactivate)
+(benchmark-init/deactivate)
 
 (provide 'init-config)

@@ -1,5 +1,7 @@
 (require 'project)
 
+
+;; (setq project-vc-extra-root-markers '("package.json"))
 (one-key-create-menu
  "Project"
  '(

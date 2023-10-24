@@ -26,8 +26,7 @@
       (set-face-attribute
        'default nil
        :font (font-spec :family +evan/en-font
-                        :weight 'medium
-			:width 'wide
+                        :weight 'normal
                         :size +evan/font-size))
       ;; 设置fixed-pitch-serif face字体
       (set-face-attribute
@@ -49,9 +48,9 @@
 
       (+evan/set-cn-fonts))))
 
-(setq +evan/en-font "Iosevka"
+(setq +evan/en-font "FantasqueSansM Nerd Font"
       +evan/cn-font "Iosevka"
-      +evan/font-size 15.0
-      +evan/cn-font-size 15.0)
+      +evan/font-size 14.0
+      +evan/cn-font-size 13.5)
 
 (provide 'init-font)

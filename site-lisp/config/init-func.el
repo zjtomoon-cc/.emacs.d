@@ -21,7 +21,6 @@
   (interactive)
   (mapc #'disable-theme custom-enabled-themes))
 
-
 ;;;###autoload
 (defun +evan/toggle-proxy ()
   (interactive)
@@ -41,9 +40,30 @@
 ;;;###autoload
 (defun +evan/toggle-transparent ()
   (interactive)
-  (if (eq (frame-parameter (selected-frame) 'alpha-background) 100)
-      (set-frame-parameter (selected-frame) 'alpha-background 70)
-    (set-frame-parameter (selected-frame) 'alpha-background 100)))
+  
+  (defun corfu-frame-alpha (alpha)
+    (require 'dash)
+    ;; set corfu frame alpha
+    (let* ((alpha-background (--find (eq (car it) 'alpha-background)
+				     corfu--frame-parameters)))
+      (if alpha-background
+	  (setq corfu--frame-parameters
+		(--map (if (eq (car it) 'alpha-background)
+			   (cons (car it) alpha)
+			 it)
+		       corfu--frame-parameters))
+	(add-to-list 'corfu--frame-parameters
+		     (cons 'alpha-background alpha)))))
+  ;; set frame alpha
+  (if (eq (frame-parameter nil 'alpha-background) 100)
+      (progn
+	(set-frame-parameter nil 'alpha-background 80)
+	(corfu-frame-alpha 95))
+    (progn
+      (set-frame-parameter nil 'alpha-background 100)
+      (corfu-frame-alpha 100))))
+
+
 
 ;;;###autoload
 (defun +evan/popup-scratch ()
@@ -63,5 +83,11 @@
   (run-with-timer 0.2 0 (lambda ()
 			  (shell-command "grim /tmp/lock.png ; swaylock -i /tmp/lock.png")
 			  (+evan/toggle-big-font))))
+
+;;;###autoload
+(defun +evan/gen-qrcode (text)
+  (interactive "sText:")
+  (async-shell-command (mapconcat 'identity (list "qrencode" "-t" "ANSIUTF8" (format "'%s'" text) ) " ") "*qrcode*")
+  )
 
 (provide 'init-func)

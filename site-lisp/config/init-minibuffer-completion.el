@@ -9,7 +9,9 @@
 (require 'init-orderless)
 
 (vertico-mode 1)
+
 (setq vertico-count 20
+      vertico-resize t
       read-file-name-completion-ignore-case t
       read-buffer-completion-ignore-case t
       completion-ignore-case t)
@@ -30,9 +32,10 @@
 (keymap-set vertico-map "?" #'minibuffer-completion-help)
 (keymap-set vertico-map "M-RET" #'minibuffer-force-complete-and-exit)
 (keymap-set vertico-map "M-TAB" #'minibuffer-complete)
+
 (add-hook 'rfn-eshadow-update-overlay #'vertico-directory-tidy)
 
-(keymap-set minibuffer-local-map "M-s" #'consullt-history)
+(keymap-set minibuffer-local-map "M-s" #'consult-history)
 (keymap-set minibuffer-local-map "M-r" #'consult-history)
 ;; (add-hook 'minibuffer-mode-hook (lambda () (vertico-mode 1)))
 (marginalia-mode)

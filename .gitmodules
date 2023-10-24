@@ -43,6 +43,9 @@
 [submodule "borg"]
 	path = site-lisp/pkg/borg
 	url = https://github.com/emacscollective/borg
+[submodule "breadcrumb"]
+	path = site-lisp/pkg/breadcrumb
+	url = https://github.com/joaotavora/breadcrumb
 [submodule "bui"]
 	path = site-lisp/pkg/bui
 	url = https://github.com/alezost/bui.el
@@ -61,6 +64,9 @@
 [submodule "closql"]
 	path = site-lisp/pkg/closql
 	url = https://github.com/emacscollective/closql
+[submodule "color-theme-modern"]
+	path = site-lisp/pkg/color-theme-modern
+	url = https://github.com/emacs-jp/replace-colorthemes
 [submodule "color-theme-sanityinc-tomorrow"]
 	path = site-lisp/pkg/color-theme-sanityinc-tomorrow
 	url = https://github.com/purcell/color-theme-sanityinc-tomorrow
@@ -70,9 +76,6 @@
 [submodule "consult"]
 	path = site-lisp/pkg/consult
 	url = https://github.com/minad/consult
-[submodule "consult-ag"]
-	path = site-lisp/pkg/consult-ag
-	url = https://github.com/yadex205/consult-ag
 [submodule "consult-dir"]
 	path = site-lisp/pkg/consult-dir
 	url = https://github.com/karthink/consult-dir
@@ -94,6 +97,9 @@
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
+[submodule "csv-mode"]
+	path = site-lisp/pkg/csv-mode
+	url = https://github.com/emacsmirror/csv-mode.git
 [submodule "dart-mode"]
 	path = site-lisp/pkg/dart-mode
 	url = https://github.com/bradyt/dart-mode
@@ -106,6 +112,9 @@
 [submodule "dashboard"]
 	path = site-lisp/pkg/dashboard
 	url = https://github.com/emacs-dashboard/emacs-dashboard
+[submodule "deadgrep"]
+	path = site-lisp/pkg/deadgrep
+	url = https://github.com/Wilfred/deadgrep
 [submodule "deno-bridge"]
 	path = site-lisp/pkg/deno-bridge
 	url = https://github.com/manateelazycat/deno-bridge
@@ -226,6 +235,9 @@
 [submodule "gcmh"]
 	path = site-lisp/pkg/gcmh
 	url = https://github.com/emacsmirror/gcmh
+[submodule "ghub"]
+	path = site-lisp/pkg/ghub
+	url = https://github.com/magit/ghub
 [submodule "git-link"]
 	path = site-lisp/pkg/git-link
 	url = https://github.com/sshaw/git-link
@@ -313,6 +325,9 @@
 [submodule "lsp-pyright"]
 	path = site-lisp/pkg/lsp-pyright
 	url = https://github.com/emacs-lsp/lsp-pyright
+[submodule "lsp-treemacs"]
+	path = site-lisp/pkg/lsp-treemacs
+	url = https://github.com/emacs-lsp/lsp-treemacs
 [submodule "lua-mode"]
 	path = site-lisp/pkg/lua-mode
 	url = https://github.com/immerrr/lua-mode
@@ -439,6 +454,12 @@
 [submodule "transient"]
 	path = site-lisp/pkg/transient
 	url = https://github.com/magit/transient
+[submodule "treemacs"]
+	path = site-lisp/pkg/treemacs
+	url = https://github.com/Alexander-Miller/treemacs
+[submodule "treepy"]
+	path = site-lisp/pkg/treepy
+	url = https://github.com/volrath/treepy.el
 [submodule "tui"]
 	path = site-lisp/pkg/tui
 	url = https://github.com/ebpa/tui.el

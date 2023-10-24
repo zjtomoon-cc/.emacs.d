@@ -11,6 +11,8 @@
 (magit-add-section-hook 'magit-status-sections-hook
 			;; 'magit-insert-modules
 			'magit-insert-stashes
+			'magit-insert-tracked-files
+			nil
 			'append)
 
 (defun my-magit-show-commit-advice (_)
@@ -26,9 +28,7 @@
 
 (eval-after-load 'git-link
   (lambda ()
+    ;; git link for gitee support
     (add-to-list 'git-link-remote-alist '("gitee\\.com" git-link-github))))
-
-;; git link for gitee support
-
 
 (provide 'init-magit)

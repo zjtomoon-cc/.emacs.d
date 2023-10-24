@@ -1,11 +1,8 @@
-;; (require 'init-hide-mode-line)
-;; (require 'doom-modeline)
-;; (doom-modeline-mode t)
-;; (require 'init-awesome-tray)
-
 (when (display-graphic-p)
   (enable-theme +evan-theme)
-  (+evan/set-fonts))
+  ;; (cnfonts-mode 1)
+  (+evan/set-fonts)
+  (toggle-frame-fullscreen))
 
 (add-hook 'prog-mode-hook #'display-line-numbers-mode)
 
@@ -20,11 +17,12 @@
   (+evan/set-fonts)
   (+evan/set-cn-fonts))
 
-(add-hook 'server-after-make-frame-hook
-	  (lambda ()
-	    (enable-theme +evan-theme)
-	    (+evan/set-fonts)
-	    (toggle-frame-fullscreen)))
+;; (add-to-list 'after-make-frame-functions
+;; 	     (lambda (f)
+;; 	       (enable-theme +evan-theme)
+;; 	       (+evan/set-fonts)
+;; 	       (+evan/toggle-transparent)
+;; 	       ))
 
 (add-hook 'window-setup-hook
 	  (lambda ()
@@ -37,5 +35,6 @@
 (defalias 'scroll-down-command 'pixel-scroll-interpolate-up)
 
 
+;; (add-hook 'prog-mode-hook #'breadcrumb-local-mode)
 
 (provide 'init-ui)

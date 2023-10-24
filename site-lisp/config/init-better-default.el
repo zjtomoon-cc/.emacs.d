@@ -23,7 +23,7 @@
 (setq yes-or-no-prompt "(y or n)")
 (keyfreq-mode t)
 (keyfreq-autosave-mode t)
-(global-hl-line-mode t)
+(global-hl-line-mode nil)
 (setq scroll-step 0
       scroll-conservatively 100
       scroll-preserve-screen-position t

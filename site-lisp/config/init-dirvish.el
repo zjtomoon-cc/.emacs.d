@@ -12,7 +12,7 @@
 
 ;; dired 
 (setq dired-dwim-target t)
-(setq dired-listing-switches "-alh"
+(setq dired-listing-switches "-lh"
       dired-auto-revert-buffer t)
 (keymap-set dired-mode-map "C-b" 'dired-up-directory)
 (keymap-set dired-mode-map "C-f" 'dired-find-file)
@@ -54,6 +54,10 @@
 
 ;; 使用dirvish替代dired
 (dirvish-override-dired-mode)
+
+;; dirvish layout
+(setq dirvish-default-layout '(0.0 0.2 0.8))
+
 
 
 

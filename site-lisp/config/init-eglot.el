@@ -3,10 +3,11 @@
 ;;   (add-hook hook 'eglot-ensure))
 
 (setq tab-always-indent 'complete)
-(setq eglot-events-buffer-size most-positive-fixnum)
+(setq eglot-events-buffer-size nil)
 (setq eglot-autoreconnect nil)
 (setq eglot-ignored-server-capabilities '(:inlayHintProvider))
 (setq eglot-inlay-hints-mode nil)
+(setq eglot-connect-timeout 20)
 
 
 (dolist (hook (list 'web-mode-hook 'typescript-mode-hook 'typescript-ts-mode-hook 'typescript-tsx-mode-hook 'go-ts-mode-hook 'dart-mode-hook))
@@ -33,15 +34,15 @@
 ;; server settings
 (setq eglot-server-programs nil)
 
-(add-to-list 'eglot-server-programs
-             '((js-mode js-jsx-mode tsx-ts-mode typescript-mode typescript-ts-mode typescript-tsx-mode)
-               .
-               ("typescript-language-server" "--stdio"
-		:initializationOptions
-		(:preference
-		 (
-		  :includeCompletionsForModuleExports t))
-		)))
+;; (add-to-list 'eglot-server-programs
+;;              '((js-mode js-jsx-mode tsx-ts-mode typescript-mode typescript-ts-mode typescript-tsx-mode)
+;;                .
+;;                ("typescript-language-server" "--stdio"
+;; 		:initializationOptions
+;; 		(:preference
+;; 		 (
+;; 		  :includeCompletionsForModuleExports t))
+;; 		)))
 
 (add-to-list 'eglot-server-programs
 	     '((go-ts-mode go-mode)
@@ -83,27 +84,15 @@
 (add-to-list 'eglot-server-programs '(dart-mode . ("dart" "language-server")))
 (add-to-list 'eglot-server-programs '(kotlin-mode . ("kotlin-language-server")))
 (add-to-list 'eglot-server-programs
-             '((web-mode)
+             '((web-mode typescript-ts-mode)
                .
                ("vue-language-server" "--stdio"
                 :initializationOptions
-                (:typescript
-                 (:tsdk "/usr/lib/node_modules/typescript/lib/")
-                 :languageFeatures
-                 (
-                  :references t
-                  :implementation t
-                  :definition t
-                  :typeDefinition t
-                  :callHierarchy nil
-                  :hover nil
-                  :rename t
-                  :renameFileRefactoring nil
-                  :signatureHelp nil
-                  :codeAction nil
-                  :workspaceSymbol nil
-                  :completion t)
-		 ))))
+		(:serverMode 0
+			     :diagnosticModel 1
+			     :textDocumentSync 2
+			     :typescript (:tsdk "/usr/lib/node_modules/typescript/lib/"))
+		)))
 
 ;; (add-hook 'web-mode-hook (lambda ()
 ;; 			   (setq-local eglot-workspace-configuration

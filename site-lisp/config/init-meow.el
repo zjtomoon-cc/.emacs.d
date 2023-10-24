@@ -37,7 +37,7 @@
 
   (defun +evan/code-key-menu ()
     (interactive)
-    (cond ((featurep 'lsp-bridge-mode) (one-key-menu-code-bridge))
+    (cond ((featurep 'lsp-bridge) (one-key-menu-code-bridge))
 	  ((featurep 'eglot-managed-mode) (one-key-menu-code-eglot))
 	  ((featurep 'lsp-mode) (one-key-menu-code-lsp))))
     

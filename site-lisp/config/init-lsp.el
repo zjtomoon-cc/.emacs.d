@@ -45,16 +45,18 @@
 (setq lsp-keymap-prefix ""
       lsp-headerline-breadcrumb-segments '(symbols))
 ;; feature enable
-(setq lsp-enable-links nil
-      lsp-enable-indentation nil
-      lsp-enable-on-type-formatting nil
-      lsp-enable-relative-indentation nil
-      lsp-headerline-breadcrumb-enable nil
-      lsp-inlay-hint-enable nil
-      lsp-log-io nil
-      lsp-lens-enable nil)
+(setq
+ lsp-enable-links nil
+ lsp-enable-indentation nil
+ lsp-enable-on-type-formatting nil
+ lsp-enable-relative-indentation nil
+ lsp-headerline-breadcrumb-enable nil
+ lsp-inlay-hint-enable nil
+ lsp-log-io nil
+ lsp-lens-enable nil)
 
 (setq lsp-disabled-clients '(lsp-emmet))
+
 ;; lsp fancy features
 (setq
  ;; ui

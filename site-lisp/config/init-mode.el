@@ -1,7 +1,8 @@
 (add-to-list 'auto-mode-alist '("\\.js\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-ts-mode))
+(add-to-list 'auto-mode-alist '("\\.mts\\'" . typescript-ts-mode))
 (add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
 (add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
 (add-to-list 'auto-mode-alist '("\\.dart\\'" . dart-mode))
@@ -30,6 +31,7 @@
 
 ;; (autoload 'stumpwm-mode "init-stumpwm")
 ;; (autoload 'markdown-mode "markdown-mode")
+(autoload 'dired  "init-dirvish" nil t)
 (autoload 'fennel-mode "fennel-mode")
 (autoload 'groovy-mode "groovy-mode")
 (autoload 'kotlin-mode "kotlin-mode")

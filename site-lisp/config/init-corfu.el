@@ -72,8 +72,9 @@
 
 			      (add-hook 'text-mode-hook (lambda ()
 							  (setq-local completion-at-point-functions (list (cape-super-capf
+													   #'cape-dict
 													   #'cape-dabbrev
-													   #'cape-dict)))))
+													   )))))
 			      (dolist (hook '(prog-mode-hook))
 				(add-hook hook (lambda ()
 						 (setq-local completion-at-point-functions
@@ -82,7 +83,8 @@
 								    ;; #'cape-yasnippet
 								    #'cape-history
 								    #'cape-keyword
-								    #'cape-symbol))))))))
+								    #'cape-symbol
+								    #'cape-dict))))))))
 
 
 
