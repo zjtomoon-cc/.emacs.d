@@ -1,180 +1,180 @@
 [submodule "Emacs-wgrep"]
 	path = site-lisp/pkg/Emacs-wgrep
-	url = https://github.com/mhayashi1120/Emacs-wgrep
+	url = git@github.com:mhayashi1120/Emacs-wgrep
 [submodule "ace-window"]
 	path = site-lisp/pkg/ace-window
-	url = https://github.com/abo-abo/ace-window
+	url = git@github.com:abo-abo/ace-window
 [submodule "aggressive-indent-mode"]
 	path = site-lisp/pkg/aggressive-indent-mode
-	url = https://github.com/Malabarba/aggressive-indent-mode
+	url = git@github.com:Malabarba/aggressive-indent-mode
 [submodule "amx"]
 	path = site-lisp/pkg/amx
-	url = https://github.com/DarwinAwardWinner/amx
+	url = git@github.com:DarwinAwardWinner/amx
 [submodule "anzu"]
 	path = site-lisp/pkg/anzu
-	url = https://github.com/emacsorphanage/anzu
+	url = git@github.com:emacsorphanage/anzu
 [submodule "apheleia"]
 	path = site-lisp/pkg/apheleia
-	url = https://github.com/radian-software/apheleia
+	url = git@github.com:radian-software/apheleia
 [submodule "async"]
 	path = site-lisp/pkg/async
-	url = https://github.com/emacsmirror/async
+	url = git@github.com:emacsmirror/async
 [submodule "auto-save"]
 	path = site-lisp/pkg/auto-save
-	url = https://github.com/manateelazycat/auto-save
+	url = git@github.com:manateelazycat/auto-save
 [submodule "avy"]
 	path = site-lisp/pkg/avy
-	url = https://github.com/abo-abo/avy
+	url = git@github.com:abo-abo/avy
 [submodule "awesome-tray"]
 	path = site-lisp/pkg/awesome-tray
-	url = https://github.com/manateelazycat/awesome-tray
+	url = git@github.com:manateelazycat/awesome-tray
 [submodule "benchmark-init"]
 	path = site-lisp/pkg/benchmark-init
-	url = https://github.com/dholm/benchmark-init-el
+	url = git@github.com:dholm/benchmark-init-el
 [submodule "blink-search"]
 	path = site-lisp/pkg/blink-search
-	url = https://github.com/manateelazycat/blink-search
+	url = git@github.com:manateelazycat/blink-search
 [submodule "bongo"]
 	path = site-lisp/pkg/bongo
-	url = https://github.com/dbrock/bongo
+	url = git@github.com:dbrock/bongo
 [submodule "boon"]
 	path = site-lisp/pkg/boon
-	url = https://github.com/jyp/boon
+	url = git@github.com:jyp/boon
 [submodule "borg"]
 	path = site-lisp/pkg/borg
-	url = https://github.com/emacscollective/borg
+	url = git@github.com:emacscollective/borg
 [submodule "breadcrumb"]
 	path = site-lisp/pkg/breadcrumb
-	url = https://github.com/joaotavora/breadcrumb
+	url = git@github.com:joaotavora/breadcrumb
 [submodule "bui"]
 	path = site-lisp/pkg/bui
-	url = https://github.com/alezost/bui.el
+	url = git@github.com:alezost/bui.el
 [submodule "cape"]
 	path = site-lisp/pkg/cape
-	url = https://github.com/minad/cape
+	url = git@github.com:minad/cape
 [submodule "cape-yasnippet"]
 	path = site-lisp/pkg/cape-yasnippet
-	url = https://github.com/elken/cape-yasnippet/
+	url = git@github.com:elken/cape-yasnippet/
 [submodule "cider"]
 	path = site-lisp/pkg/cider
-	url = https://github.com/clojure-emacs/cider
+	url = git@github.com:clojure-emacs/cider
 [submodule "clojure-mode"]
 	path = site-lisp/pkg/clojure-mode
-	url = https://github.com/clojure-emacs/clojure-mode
+	url = git@github.com:clojure-emacs/clojure-mode
 [submodule "closql"]
 	path = site-lisp/pkg/closql
-	url = https://github.com/emacscollective/closql
+	url = git@github.com:emacscollective/closql
 [submodule "color-theme-modern"]
 	path = site-lisp/pkg/color-theme-modern
-	url = https://github.com/emacs-jp/replace-colorthemes
+	url = git@github.com:emacs-jp/replace-colorthemes
 [submodule "color-theme-sanityinc-tomorrow"]
 	path = site-lisp/pkg/color-theme-sanityinc-tomorrow
-	url = https://github.com/purcell/color-theme-sanityinc-tomorrow
+	url = git@github.com:purcell/color-theme-sanityinc-tomorrow
 [submodule "compat"]
 	path = site-lisp/pkg/compat
-	url = https://github.com/emacs-compat/compat
+	url = git@github.com:emacs-compat/compat
 [submodule "consult"]
 	path = site-lisp/pkg/consult
-	url = https://github.com/minad/consult
+	url = git@github.com:minad/consult
 [submodule "consult-dir"]
 	path = site-lisp/pkg/consult-dir
-	url = https://github.com/karthink/consult-dir
+	url = git@github.com:karthink/consult-dir
 [submodule "consult-eglot"]
 	path = site-lisp/pkg/consult-eglot
-	url = https://github.com/mohkale/consult-eglot
+	url = git@github.com:mohkale/consult-eglot
 [submodule "consult-lsp"]
 	path = site-lisp/pkg/consult-lsp
-	url = https://github.com/gagbo/consult-lsp
+	url = git@github.com:gagbo/consult-lsp
 [submodule "consult-yasnippet"]
 	path = site-lisp/pkg/consult-yasnippet
-	url = https://github.com/mohkale/consult-yasnippet
+	url = git@github.com:mohkale/consult-yasnippet
 [submodule "corfu"]
 	path = site-lisp/pkg/corfu
-	url = https://github.com/minad/corfu
+	url = git@github.com:minad/corfu
 [submodule "corfu-doc"]
 	path = site-lisp/pkg/corfu-doc
-	url = https://github.com/galeo/corfu-doc
+	url = git@github.com:galeo/corfu-doc
 [submodule "corfu-terminal"]
 	path = site-lisp/pkg/corfu-terminal
 	url = https://codeberg.org/akib/emacs-corfu-terminal
 [submodule "csv-mode"]
 	path = site-lisp/pkg/csv-mode
-	url = https://github.com/emacsmirror/csv-mode.git
+	url = git@github.com:emacsmirror/csv-mode.git
 [submodule "dart-mode"]
 	path = site-lisp/pkg/dart-mode
-	url = https://github.com/bradyt/dart-mode
+	url = git@github.com:bradyt/dart-mode
 [submodule "dash"]
 	path = site-lisp/pkg/dash
-	url = https://github.com/magnars/dash.el
+	url = git@github.com:magnars/dash.el
 [submodule "dash.el"]
 	path = site-lisp/pkg/dash.el
-	url = https://github.com/magnars/dash.el
+	url = git@github.com:magnars/dash.el
 [submodule "dashboard"]
 	path = site-lisp/pkg/dashboard
-	url = https://github.com/emacs-dashboard/emacs-dashboard
+	url = git@github.com:emacs-dashboard/emacs-dashboard
 [submodule "deadgrep"]
 	path = site-lisp/pkg/deadgrep
-	url = https://github.com/Wilfred/deadgrep
+	url = git@github.com:Wilfred/deadgrep
 [submodule "deno-bridge"]
 	path = site-lisp/pkg/deno-bridge
-	url = https://github.com/manateelazycat/deno-bridge
+	url = git@github.com:manateelazycat/deno-bridge
 [submodule "devdocs"]
 	path = site-lisp/pkg/devdocs
-	url = https://github.com/astoff/devdocs.el
+	url = git@github.com:astoff/devdocs.el
 [submodule "diff-hl"]
 	path = site-lisp/pkg/diff-hl
-	url = https://github.com/dgutov/diff-hl
+	url = git@github.com:dgutov/diff-hl
 [submodule "dirvish"]
 	path = site-lisp/pkg/dirvish
-	url = https://github.com/alexluigit/dirvish.git
+	url = git@github.com:alexluigit/dirvish.git
 [submodule "disable-mouse"]
 	path = site-lisp/pkg/disable-mouse
-	url = https://github.com/purcell/disable-mouse
+	url = git@github.com:purcell/disable-mouse
 [submodule "docstr"]
 	path = site-lisp/pkg/docstr
-	url = https://github.com/emacs-vs/docstr
+	url = git@github.com:emacs-vs/docstr
 [submodule "doom-themes"]
 	path = site-lisp/pkg/doom-themes
-	url = https://github.com/doomemacs/themes.git
+	url = git@github.com:doomemacs/themes.git
 [submodule "eat"]
 	path = site-lisp/pkg/eat
 	url = https://codeberg.org/akib/emacs-eat
 [submodule "ef-themes"]
 	path = site-lisp/pkg/ef-themes
-	url = https://github.com/emacsmirror/ef-themes.git
+	url = git@github.com:emacsmirror/ef-themes.git
 [submodule "eglot"]
 	path = site-lisp/pkg/eglot
-	url = https://github.com/joaotavora/eglot
+	url = git@github.com:joaotavora/eglot
 [submodule "eldoc-box"]
 	path = site-lisp/pkg/eldoc-box
-	url = https://github.com/casouri/eldoc-box
+	url = git@github.com:casouri/eldoc-box
 [submodule "elfeed"]
 	path = site-lisp/pkg/elfeed
-	url = https://github.com/skeeto/elfeed
+	url = git@github.com:skeeto/elfeed
 [submodule "elisp-demos"]
 	path = site-lisp/pkg/elisp-demos
-	url = https://github.com/xuchunyang/elisp-demos
+	url = git@github.com:xuchunyang/elisp-demos
 [submodule "elisp-refs"]
 	path = site-lisp/pkg/elisp-refs
-	url = https://github.com/Wilfred/elisp-refs
+	url = git@github.com:Wilfred/elisp-refs
 [submodule "elispfl"]
 	path = site-lisp/pkg/elispfl
 	url = git@github.com:cireu/elispfl
 [submodule "emacs-fish"]
 	path = site-lisp/pkg/emacs-fish
-	url = https://github.com/wwwjfy/emacs-fish
+	url = git@github.com:wwwjfy/emacs-fish
 [submodule "emacs-gradle-mode"]
 	path = site-lisp/pkg/emacs-gradle-mode
-	url = https://github.com/jacobono/emacs-gradle-mode
+	url = git@github.com:jacobono/emacs-gradle-mode
 [submodule "emacs-hide-mode-line"]
 	path = site-lisp/pkg/emacs-hide-mode-line
-	url = https://github.com/hlissner/emacs-hide-mode-line
+	url = git@github.com:hlissner/emacs-hide-mode-line
 [submodule "emacs-kaolin-themes"]
 	path = site-lisp/pkg/emacs-kaolin-themes
-	url = https://github.com/ogdenwebb/emacs-kaolin-themes
+	url = git@github.com:ogdenwebb/emacs-kaolin-themes
 [submodule "emacs-libvterm"]
 	path = site-lisp/pkg/emacs-libvterm
-	url = https://github.com/akermu/emacs-libvterm
+	url = git@github.com:akermu/emacs-libvterm
 [submodule "emacs-popon"]
 	path = site-lisp/pkg/emacs-popon
 	url = https://codeberg.org/akib/emacs-popon
@@ -183,334 +183,334 @@
 	url = https://codeberg.org/akib/emacs-popon
 [submodule "emacs-request"]
 	path = site-lisp/pkg/emacs-request
-	url = https://github.com/tkf/emacs-request
+	url = git@github.com:tkf/emacs-request
 [submodule "emacs-rime"]
 	path = site-lisp/pkg/emacs-rime
-	url = https://github.com/DogLooksGood/emacs-rime
+	url = git@github.com:DogLooksGood/emacs-rime
 [submodule "emacs-solaire-mode"]
 	path = site-lisp/pkg/emacs-solaire-mode
-	url = https://github.com/hlissner/emacs-solaire-mode
+	url = git@github.com:hlissner/emacs-solaire-mode
 [submodule "emacs-websocket"]
 	path = site-lisp/pkg/emacs-websocket
-	url = https://github.com/ahyatt/emacs-websocket
+	url = git@github.com:ahyatt/emacs-websocket
 [submodule "emacs-which-key"]
 	path = site-lisp/pkg/emacs-which-key
-	url = https://github.com/justbur/emacs-which-key
+	url = git@github.com:justbur/emacs-which-key
 [submodule "emacsql"]
 	path = site-lisp/pkg/emacsql
-	url = https://github.com/skeeto/emacsql
+	url = git@github.com:skeeto/emacsql
 [submodule "embark"]
 	path = site-lisp/pkg/embark
-	url = https://github.com/oantolin/embark
+	url = git@github.com:oantolin/embark
 [submodule "emmet-mode"]
 	path = site-lisp/pkg/emmet-mode
-	url = https://github.com/smihica/emmet-mode
+	url = git@github.com:smihica/emmet-mode
 [submodule "epkg"]
 	path = site-lisp/pkg/epkg
-	url = https://github.com/emacscollective/epkg
+	url = git@github.com:emacscollective/epkg
 [submodule "esup"]
 	path = site-lisp/pkg/esup
-	url = https://github.com/jschaf/esup
+	url = git@github.com:jschaf/esup
 [submodule "exec-path-from-shell"]
 	path = site-lisp/pkg/exec-path-from-shell
-	url = https://github.com/purcell/exec-path-from-shell.git
+	url = git@github.com:purcell/exec-path-from-shell.git
 [submodule "expand-region"]
 	path = site-lisp/pkg/expand-region
-	url = https://github.com/magnars/expand-region.el
+	url = git@github.com:magnars/expand-region.el
 [submodule "f"]
 	path = site-lisp/pkg/f
-	url = https://github.com/rejeep/f.el
+	url = git@github.com:rejeep/f.el
 [submodule "f.el"]
 	path = site-lisp/pkg/f.el
-	url = https://github.com/rejeep/f.el
+	url = git@github.com:rejeep/f.el
 [submodule "fanyi"]
 	path = site-lisp/pkg/fanyi
-	url = https://github.com/condy0919/fanyi.el
+	url = git@github.com:condy0919/fanyi.el
 [submodule "fish-mode"]
 	path = site-lisp/pkg/fish-mode
-	url = https://github.com/emacsmirror/fish-mode
+	url = git@github.com:emacsmirror/fish-mode
 [submodule "flycheck"]
 	path = site-lisp/pkg/flycheck
-	url = https://github.com/flycheck/flycheck
+	url = git@github.com:flycheck/flycheck
 [submodule "gcmh"]
 	path = site-lisp/pkg/gcmh
-	url = https://github.com/emacsmirror/gcmh
+	url = git@github.com:emacsmirror/gcmh
 [submodule "ghub"]
 	path = site-lisp/pkg/ghub
-	url = https://github.com/magit/ghub
+	url = git@github.com:magit/ghub
 [submodule "git-link"]
 	path = site-lisp/pkg/git-link
-	url = https://github.com/sshaw/git-link
+	url = git@github.com:sshaw/git-link
 [submodule "go-mode.el"]
 	path = site-lisp/pkg/go-mode.el
-	url = https://github.com/dominikh/go-mode.el
+	url = git@github.com:dominikh/go-mode.el
 [submodule "go-translate"]
 	path = site-lisp/pkg/go-translate
-	url = https://github.com/lorniu/go-translate.git
+	url = git@github.com:lorniu/go-translate.git
 [submodule "goggles"]
 	path = site-lisp/pkg/goggles
-	url = https://github.com/minad/goggles
+	url = git@github.com:minad/goggles
 [submodule "golden-ratio.el"]
 	path = site-lisp/pkg/golden-ratio.el
-	url = https://github.com/roman/golden-ratio.el
+	url = git@github.com:roman/golden-ratio.el
 [submodule "grammatical-edit"]
 	path = site-lisp/pkg/grammatical-edit
-	url = https://github.com/manateelazycat/grammatical-edit.git
+	url = git@github.com:manateelazycat/grammatical-edit.git
 [submodule "groovy-emacs-modes"]
 	path = site-lisp/pkg/groovy-emacs-modes
-	url = https://github.com/Groovy-Emacs-Modes/groovy-emacs-modes
+	url = git@github.com:Groovy-Emacs-Modes/groovy-emacs-modes
 [submodule "haki"]
 	path = site-lisp/pkg/haki
-	url = https://github.com/idlip/haki
+	url = git@github.com:idlip/haki
 [submodule "helpful"]
 	path = site-lisp/pkg/helpful
-	url = https://github.com/Wilfred/helpful
+	url = git@github.com:Wilfred/helpful
 [submodule "hexrgb/emacs-htmlize"]
 	path = site-lisp/pkg/hexrgb/emacs-htmlize
-	url = https://github.com/hniksic/emacs-htmlize
+	url = git@github.com:hniksic/emacs-htmlize
 [submodule "hextorgb"]
 	path = site-lisp/pkg/hextorgb
-	url = https://github.com/syohex/emacs-hex-to-rgba
+	url = git@github.com:syohex/emacs-hex-to-rgba
 [submodule "highlight-indent-guides"]
 	path = site-lisp/pkg/highlight-indent-guides
-	url = https://github.com/DarthFennec/highlight-indent-guides
+	url = git@github.com:DarthFennec/highlight-indent-guides
 [submodule "hl-todo"]
 	path = site-lisp/pkg/hl-todo
-	url = https://github.com/tarsius/hl-todo
+	url = git@github.com:tarsius/hl-todo
 [submodule "holy-layer"]
 	path = site-lisp/pkg/holy-layer
-	url = https://github.com/manateelazycat/holo-layer
+	url = git@github.com:manateelazycat/holo-layer
 [submodule "ht"]
 	path = site-lisp/pkg/ht
-	url = https://github.com/Wilfred/ht.el
+	url = git@github.com:Wilfred/ht.el
 [submodule "ht.el"]
 	path = site-lisp/pkg/ht.el
-	url = https://github.com/Wilfred/ht.el
+	url = git@github.com:Wilfred/ht.el
 [submodule "hydra"]
 	path = site-lisp/pkg/hydra
-	url = https://github.com/abo-abo/hydra
+	url = git@github.com:abo-abo/hydra
 [submodule "immersive-translate"]
 	path = site-lisp/pkg/immersive-translate
-	url = https://github.com/Elilif/emacs-immersive-translate
+	url = git@github.com:Elilif/emacs-immersive-translate
 [submodule "info+"]
 	path = site-lisp/pkg/info+
-	url = https://github.com/emacsmirror/info-plus.git
+	url = git@github.com:emacsmirror/info-plus.git
 [submodule "insert-kaomoji"]
 	path = site-lisp/pkg/insert-kaomoji
-	url = https://github.com/emacsmirror/insert-kaomoji.git
+	url = git@github.com:emacsmirror/insert-kaomoji.git
 [submodule "keyfreq"]
 	path = site-lisp/pkg/keyfreq
-	url = https://github.com/dacap/keyfreq
+	url = git@github.com:dacap/keyfreq
 [submodule "kind-icon"]
 	path = site-lisp/pkg/kind-icon
-	url = https://github.com/jdtsmith/kind-icon
+	url = git@github.com:jdtsmith/kind-icon
 [submodule "kotlin-mode"]
 	path = site-lisp/pkg/kotlin-mode
-	url = https://github.com/Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git
+	url = git@github.com:Emacs-Kotlin-Mode-Maintainers/kotlin-mode.git
 [submodule "lazy-load"]
 	path = site-lisp/pkg/lazy-load
-	url = https://github.com/manateelazycat/lazy-load.git
+	url = git@github.com:manateelazycat/lazy-load.git
 [submodule "llama"]
 	path = site-lisp/pkg/llama
-	url = https://github.com/emacsmirror/llama
+	url = git@github.com:emacsmirror/llama
 [submodule "llama"]
 	path = site-lisp/pkg/llama
-	url = https://github.com/emacsmirror/llama
+	url = git@github.com:emacsmirror/llama
 [submodule "lsp-bridge"]
 	path = site-lisp/pkg/lsp-bridge
-	url = https://github.com/manateelazycat/lsp-bridge
+	url = git@github.com:manateelazycat/lsp-bridge
 [submodule "lsp-mode"]
 	path = site-lisp/pkg/lsp-mode
-	url = https://github.com/emacs-lsp/lsp-mode
+	url = git@github.com:emacs-lsp/lsp-mode
 [submodule "lsp-pyright"]
 	path = site-lisp/pkg/lsp-pyright
-	url = https://github.com/emacs-lsp/lsp-pyright
+	url = git@github.com:emacs-lsp/lsp-pyright
 [submodule "lsp-treemacs"]
 	path = site-lisp/pkg/lsp-treemacs
-	url = https://github.com/emacs-lsp/lsp-treemacs
+	url = git@github.com:emacs-lsp/lsp-treemacs
 [submodule "lua-mode"]
 	path = site-lisp/pkg/lua-mode
-	url = https://github.com/immerrr/lua-mode
+	url = git@github.com:immerrr/lua-mode
 [submodule "magit"]
 	path = site-lisp/pkg/magit
-	url = https://github.com/magit/magit
+	url = git@github.com:magit/magit
 [submodule "maple-minibuffer"]
 	path = site-lisp/pkg/maple-minibuffer
-	url = https://github.com/honmaple/emacs-maple-minibuffer
+	url = git@github.com:honmaple/emacs-maple-minibuffer
 [submodule "marginalia"]
 	path = site-lisp/pkg/marginalia
-	url = https://github.com/minad/marginalia.git
+	url = git@github.com:minad/marginalia.git
 [submodule "marginalia"]
 	path = site-lisp/pkg/marginalia
-	url = https://github.com/minad/marginalia
+	url = git@github.com:minad/marginalia
 [submodule "markdown-mode"]
 	path = site-lisp/pkg/markdown-mode
-	url = https://github.com/jrblevin/markdown-mode
+	url = git@github.com:jrblevin/markdown-mode
 [submodule "meow"]
 	path = site-lisp/pkg/meow
-	url = https://github.com/meow-edit/meow
+	url = git@github.com:meow-edit/meow
 [submodule "one-key"]
 	path = site-lisp/pkg/one-key
-	url = https://github.com/manateelazycat/one-key.git
+	url = git@github.com:manateelazycat/one-key.git
 [submodule "orderless"]
 	path = site-lisp/pkg/orderless
-	url = https://github.com/oantolin/orderless
+	url = git@github.com:oantolin/orderless
 [submodule "org-modern"]
 	path = site-lisp/pkg/org-modern
-	url = https://github.com/minad/org-modern
+	url = git@github.com:minad/org-modern
 [submodule "ov"]
 	path = site-lisp/pkg/ov
-	url = https://github.com/emacsorphanage/ov
+	url = git@github.com:emacsorphanage/ov
 [submodule "page-break-lines"]
 	path = site-lisp/pkg/page-break-lines
-	url = https://github.com/purcell/page-break-lines
+	url = git@github.com:purcell/page-break-lines
 [submodule "parseclj"]
 	path = site-lisp/pkg/parseclj
-	url = https://github.com/clojure-emacs/parseclj
+	url = git@github.com:clojure-emacs/parseclj
 [submodule "parseedn"]
 	path = site-lisp/pkg/parseedn
-	url = https://github.com/clojure-emacs/parseedn
+	url = git@github.com:clojure-emacs/parseedn
 [submodule "pfuture"]
 	path = site-lisp/pkg/pfuture
-	url = https://github.com/Alexander-Miller/pfuture
+	url = git@github.com:Alexander-Miller/pfuture
 [submodule "pinyinlib.el"]
 	path = site-lisp/pkg/pinyinlib.el
-	url = https://github.com/cute-jumper/pinyinlib.el
+	url = git@github.com:cute-jumper/pinyinlib.el
 [submodule "popwin"]
 	path = site-lisp/pkg/popwin
-	url = https://github.com/emacsorphanage/popwin
+	url = git@github.com:emacsorphanage/popwin
 [submodule "posframe"]
 	path = site-lisp/pkg/posframe
-	url = https://github.com/tumashu/posframe
+	url = git@github.com:tumashu/posframe
 [submodule "protobuf-ts-mode"]
 	path = site-lisp/pkg/protobuf-ts-mode
 	url = https://git.ookami.one/cgit/protobuf-ts-mode
 [submodule "queue"]
 	path = site-lisp/pkg/queue
-	url = https://github.com/emacsmirror/queue.git
+	url = git@github.com:emacsmirror/queue.git
 [submodule "rainbow-identifiers"]
 	path = site-lisp/pkg/rainbow-identifiers
-	url = https://github.com/Fanael/rainbow-identifiers.git
+	url = git@github.com:Fanael/rainbow-identifiers.git
 [submodule "rainbow-mode"]
 	path = site-lisp/pkg/rainbow-mode
-	url = https://github.com/emacsmirror/rainbow-mode
+	url = git@github.com:emacsmirror/rainbow-mode
 [submodule "reformatter"]
 	path = site-lisp/pkg/reformatter
-	url = https://github.com/purcell/emacs-reformatter
+	url = git@github.com:purcell/emacs-reformatter
 [submodule "restclient.el"]
 	path = site-lisp/pkg/restclient.el
-	url = https://github.com/pashky/restclient.el.git
+	url = git@github.com:pashky/restclient.el.git
 [submodule "ron-mode"]
 	path = site-lisp/pkg/ron-mode
-	url = https://github.com/rhololkeolke/ron-mode
+	url = git@github.com:rhololkeolke/ron-mode
 [submodule "rotate"]
 	path = site-lisp/pkg/rotate
-	url = https://github.com/daichirata/emacs-rotate
+	url = git@github.com:daichirata/emacs-rotate
 [submodule "rust-mode"]
 	path = site-lisp/pkg/rust-mode
-	url = https://github.com/rust-lang/rust-mode
+	url = git@github.com:rust-lang/rust-mode
 [submodule "s"]
 	path = site-lisp/pkg/s
-	url = https://github.com/magnars/s.el
+	url = git@github.com:magnars/s.el
 [submodule "sesman"]
 	path = site-lisp/pkg/sesman
-	url = https://github.com/vspinu/sesman
+	url = git@github.com:vspinu/sesman
 [submodule "setup"]
 	path = site-lisp/pkg/setup
-	url = https://github.com/emacsmirror/setup.git
+	url = git@github.com:emacsmirror/setup.git
 [submodule "shrink-path"]
 	path = site-lisp/pkg/shrink-path
 	url = https://gitlab.com/bennya/shrink-path.el
 [submodule "spacemacs-theme"]
 	path = site-lisp/pkg/spacemacs-theme
-	url = https://github.com/nashamri/spacemacs-theme
+	url = git@github.com:nashamri/spacemacs-theme
 [submodule "spinner"]
 	path = site-lisp/pkg/spinner
-	url = https://github.com/Malabarba/spinner.el
+	url = git@github.com:Malabarba/spinner.el
 [submodule "stumpwm-mode"]
 	path = site-lisp/pkg/stumpwm-mode
-	url = https://github.com/emacsmirror/stumpwm-mode.git
+	url = git@github.com:emacsmirror/stumpwm-mode.git
 [submodule "sudo-edit"]
 	path = site-lisp/pkg/sudo-edit
-	url = https://github.com/nflath/sudo-edit
+	url = git@github.com:nflath/sudo-edit
 [submodule "swiper"]
 	path = site-lisp/pkg/swiper
-	url = https://github.com/abo-abo/swiper
+	url = git@github.com:abo-abo/swiper
 [submodule "telega.el"]
 	path = site-lisp/pkg/telega.el
-	url = https://github.com/zevlg/telega.el
+	url = git@github.com:zevlg/telega.el
 [submodule "tempel"]
 	path = site-lisp/pkg/tempel
-	url = https://github.com/minad/tempel
+	url = git@github.com:minad/tempel
 [submodule "thrift"]
 	path = site-lisp/pkg/thrift
-	url = https://github.com/emacsmirror/thrift.git
+	url = git@github.com:emacsmirror/thrift.git
 [submodule "thrift-mode"]
 	path = site-lisp/pkg/thrift-mode
-	url = https://github.com/davidmiller/thrift-mode
+	url = git@github.com:davidmiller/thrift-mode
 [submodule "tldr.el"]
 	path = site-lisp/pkg/tldr.el
-	url = https://github.com/kuanyui/tldr.el
+	url = git@github.com:kuanyui/tldr.el
 [submodule "transient"]
 	path = site-lisp/pkg/transient
-	url = https://github.com/magit/transient
+	url = git@github.com:magit/transient
 [submodule "treemacs"]
 	path = site-lisp/pkg/treemacs
-	url = https://github.com/Alexander-Miller/treemacs
+	url = git@github.com:Alexander-Miller/treemacs
 [submodule "treepy"]
 	path = site-lisp/pkg/treepy
-	url = https://github.com/volrath/treepy.el
+	url = git@github.com:volrath/treepy.el
 [submodule "tui"]
 	path = site-lisp/pkg/tui
-	url = https://github.com/ebpa/tui.el
+	url = git@github.com:ebpa/tui.el
 [submodule "typescript-mode"]
 	path = site-lisp/pkg/typescript-mode
-	url = https://github.com/emacs-typescript/typescript.el
+	url = git@github.com:emacs-typescript/typescript.el
 [submodule "typescript.el"]
 	path = site-lisp/pkg/typescript.el
-	url = https://github.com/emacs-typescript/typescript.el
+	url = git@github.com:emacs-typescript/typescript.el
 [submodule "valign"]
 	path = site-lisp/pkg/valign
-	url = https://github.com/casouri/valign
+	url = git@github.com:casouri/valign
 [submodule "vertico"]
 	path = site-lisp/pkg/vertico
-	url = https://github.com/minad/vertico
+	url = git@github.com:minad/vertico
 [submodule "vimish-fold"]
 	path = site-lisp/pkg/vimish-fold
-	url = https://github.com/matsievskiysv/vimish-fold
+	url = git@github.com:matsievskiysv/vimish-fold
 [submodule "visual-fill-column"]
 	path = site-lisp/pkg/visual-fill-column
-	url = https://github.com/joostkremers/visual-fill-column
+	url = git@github.com:joostkremers/visual-fill-column
 [submodule "vundo"]
 	path = site-lisp/pkg/vundo
-	url = https://github.com/casouri/vundo
+	url = git@github.com:casouri/vundo
 [submodule "wakatime-mode"]
 	path = site-lisp/pkg/wakatime-mode
-	url = https://github.com/wakatime/wakatime-mode
+	url = git@github.com:wakatime/wakatime-mode
 [submodule "web-mode"]
 	path = site-lisp/pkg/web-mode
-	url = https://github.com/fxbois/web-mode
+	url = git@github.com:fxbois/web-mode
 [submodule "which-key"]
 	path = site-lisp/pkg/which-key
-	url = https://github.com/justbur/emacs-which-key
+	url = git@github.com:justbur/emacs-which-key
 [submodule "with-editor"]
 	path = site-lisp/pkg/with-editor
-	url = https://github.com/magit/with-editor.git
+	url = git@github.com:magit/with-editor.git
 [submodule "writeroom-mode"]
 	path = site-lisp/pkg/writeroom-mode
-	url = https://github.com/joostkremers/writeroom-mode
+	url = git@github.com:joostkremers/writeroom-mode
 [submodule "yaml"]
 	path = site-lisp/pkg/yaml
-	url = https://github.com/zkry/yaml.el
+	url = git@github.com:zkry/yaml.el
 [submodule "yaml-mode"]
 	path = site-lisp/pkg/yaml-mode
-	url = https://github.com/yoshiki/yaml-mode
+	url = git@github.com:yoshiki/yaml-mode
 [submodule "yasnippet"]
 	path = site-lisp/pkg/yasnippet
-	url = https://github.com/joaotavora/yasnippet
+	url = git@github.com:joaotavora/yasnippet
 [submodule "yasnippet-snippets"]
 	path = site-lisp/pkg/yasnippet-snippets
-	url = https://github.com/AndreaCrotti/yasnippet-snippets
+	url = git@github.com:AndreaCrotti/yasnippet-snippets
 [submodule "zig-mode"]
 	path = site-lisp/pkg/zig-mode
-	url = https://github.com/ziglang/zig-mode
+	url = git@github.com:ziglang/zig-mode

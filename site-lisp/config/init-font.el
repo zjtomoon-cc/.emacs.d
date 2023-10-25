@@ -48,7 +48,7 @@
 
       (+evan/set-cn-fonts))))
 
-(setq +evan/en-font "FantasqueSansM Nerd Font"
+(setq +evan/en-font "FiraCode Nerd Font"
       +evan/cn-font "Iosevka"
       +evan/font-size 14.0
       +evan/cn-font-size 13.5)
