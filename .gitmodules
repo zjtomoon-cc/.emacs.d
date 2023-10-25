@@ -514,3 +514,6 @@
 [submodule "zig-mode"]
 	path = site-lisp/pkg/zig-mode
 	url = git@github.com:ziglang/zig-mode
+[submodule "go-mode.el"]
+	path = site-lisp/pkg/go-mode.el
+	url = git@github.com:dominikh/go-mode.el
