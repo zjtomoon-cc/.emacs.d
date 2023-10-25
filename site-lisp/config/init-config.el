@@ -7,7 +7,7 @@
 (require 'init-ediff)
 (require 'init-treesit)
 (require 'init-rime)
-(require 'init-key)
+;;(require 'init-key)
 (require 'init-window)
 (require 'init-helpful)
 (require 'init-xref)
