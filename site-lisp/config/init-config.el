@@ -27,6 +27,6 @@
 			   (goggles-mode t)
 			   (require 'init-gcmh)))
 
-(benchmark-init/deactivate)
+;; (benchmark-init/deactivate)
 
 (provide 'init-config)

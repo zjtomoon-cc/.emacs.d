@@ -1,5 +1,12 @@
 (require 'vertico)
+;; (require 'vertico-multiform)
 ;; (require 'vertico-grid)
+;; (require 'vertico-indexed)
+;; (require 'vertico-flat)
+;; (require 'vertico-directory)
+;; (require 'vertico-buffer)
+;; (require 'vertico-unobtrusive)
+
 ;; (require 'vertico-quick)
 (require 'marginalia)
 (require 'consult)
@@ -8,13 +15,23 @@
 ;; (require 'consult-fzf)
 (require 'init-orderless)
 
-(vertico-mode 1)
+;; (setq vertico-multiform-commands
+;;       '((consult-line buffer)))
 
+;; (setq vertico-multiform-categories
+;;       '((consult-grep buffer)
+;; 	(consult-line buffer)))
+;; 
 (setq vertico-count 20
       vertico-resize t
       read-file-name-completion-ignore-case t
       read-buffer-completion-ignore-case t
       completion-ignore-case t)
+
+(vertico-mode 1)
+;; (vertico-multiform-mode)
+
+
 
 ;; 允许vertico在minibuffer内补全
 (setq completion-in-region-function

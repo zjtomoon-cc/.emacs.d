@@ -1,5 +1,5 @@
 (when (display-graphic-p)
-  (enable-theme +evan-theme)
+  ;; (enable-theme +evan-theme)
   ;; (cnfonts-mode 1)
   (+evan/set-fonts)
   (toggle-frame-fullscreen))

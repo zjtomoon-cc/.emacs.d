@@ -17,7 +17,7 @@
 (setq ad-redefinition-action 'accept)   ;不要烦人的 redefine warning
 ;; 增加长行处理性能
 (setq bidi-inhibit-bpa t)
-(setq bidi-paragraph-direction 'left-to-right)
+(setq bidi-paragraph-direction nil)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 (setq yes-or-no-prompt "(y or n)")

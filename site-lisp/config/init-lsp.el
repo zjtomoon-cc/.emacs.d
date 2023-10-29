@@ -5,7 +5,7 @@
 (defun +evan/orderless-dispatch-flex-first (_pattern index _total)
   (and (eq index 0) 'orderless-flex))
 
-(dolist (hook (list 'web-mode-hook 'typescript-mode-hook 'typescript-ts-mode-hook 'typescript-tsx-mode-hook 'go-ts-mode-hook 'dart-mode-hook))
+(dolist (hook (list 'web-mode-hook 'typescript-mode-hook 'typescript-ts-mode-hook 'typescript-tsx-mode-hook 'go-ts-mode-hook 'dart-mode-hook 'go-mode-hook 'c++-mode-hook))
   (add-hook hook 'lsp-deferred))
 
 (setq flycheck-check-syntax-automatically '(save))

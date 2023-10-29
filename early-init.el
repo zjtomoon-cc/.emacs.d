@@ -10,10 +10,7 @@
 
 (let ((default-directory "~/.emacs.d/site-lisp")
       (file-name-handleralist nil))
-  (add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp/pkg/benchmark-init"))
-  (require 'benchmark-init)
-  (benchmark-init/activate)
-  (normal-top-level-add-subdirs-to-load-path)
+  (normal-top-level-add-subdirs-to-load-path )
   (require 'init-pkgm)
   (require 'init-better-default)
   (require 'lazy-load)
@@ -21,11 +18,7 @@
   (require 'init-themes)
   (require 'init-font)
   (require 'init-face)
-  
-  ;; (setq +evan-theme (if (and (>= (string-to-number (format-time-string "%H")) 6)
-  ;; 			     (>= (string-to-number (format-time-string "%H")) 18))
-  ;; 			'modus-vivendi
-  ;; 		      'modus-operandi))
   (setq +evan-theme 'doom-one)
-  (load-theme +evan-theme t nil))
+  (load-theme +evan-theme t nil)
+  )
 

@@ -40,10 +40,10 @@
     (cond ((featurep 'lsp-bridge) (one-key-menu-code-bridge))
 	  ((featurep 'eglot-managed-mode) (one-key-menu-code-eglot))
 	  ((featurep 'lsp-mode) (one-key-menu-code-lsp))))
-    
+  
   (meow-leader-define-key
    ;; SPC j/k will run the original command in MOTION state.
-  '("`" . +evan/popup-scratch)
+   '("`" . +evan/popup-scratch)
    '("t" . one-key-menu-toggle)
    '("f" . one-key-menu-file)
    '("s" . one-key-menu-search)
